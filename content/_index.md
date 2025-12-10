@@ -24,7 +24,46 @@ sections:
         <div style="display:flex;gap:0.5rem;align-items:center">
           <a href="uploads/resume.pdf" style="display:inline-block;padding:0.5rem 1rem;background:#111827;color:#ffffff;border-radius:0.375rem;text-decoration:none">Download CV (pdf)</a>
           <a href="uploads/Resume_Dec2025.docx" style="display:inline-block;padding:0.5rem 1rem;background:#6b7280;color:#ffffff;border-radius:0.375rem;text-decoration:none">Download CV (word)</a>
+          <button id="proofsBtn" style="display:inline-block;padding:0.5rem 1rem;border-radius:0.375rem;border:0;background:#0ea5a4;color:#ffffff;cursor:pointer">View Proofs</button>
         </div>
+
+        <!-- Proofs modal -->
+        <div id="proofsModal" style="display:none;position:fixed;inset:0;align-items:center;justify-content:center;background:rgba(0,0,0,0.5);z-index:9999">
+          <div style="width:min(720px,95%);background:#fff;color:#111827;border-radius:0.5rem;padding:1.25rem;box-shadow:0 10px 30px rgba(2,6,23,0.3)">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.5rem">
+              <h3 style="margin:0;font-size:1.125rem">Proof of Achievements</h3>
+              <button id="proofsClose" aria-label="Close" style="background:none;border:0;font-size:1.25rem;cursor:pointer">✕</button>
+            </div>
+            <div style="max-height:55vh;overflow:auto;padding-right:0.5rem">
+              <ul style="padding-left:1.25rem;margin:0">
+                <li><a href="/uploads/ProofOfAchievements/anu_transcript.pdf" target="_blank">ANU Transcript</a></li>
+                <li><a href="/uploads/ProofOfAchievements/9576222--exam-result-letter--april-2019---core-principles--cm--cs-and-cb-.pdf" target="_blank">Actuarial Exam Results - Core Principles (CM/CS/CB)</a></li>
+                <li><a href="/uploads/ProofOfAchievements/LIRPD_Results%20Letter_Class%20Registrations_784254_464810.pdf" target="_blank">Actuarial Exam Results - LIRPD</a></li>
+                <li><a href="/uploads/ProofOfAchievements/LIRV_Results%20Letter_Class%20Registrations_788446_489087.pdf" target="_blank">Actuarial Exam Results - LIRV</a></li>
+                <li><a href="/uploads/ProofOfAchievements/CMP%20Results%20Letter_Class%20Registrations_779123_407293.pdf" target="_blank">Actuarial Exam Results - CMP</a></li>
+                <li><a href="/uploads/ProofOfAchievements/ALM_Results%20Letter_Class%20Registrations_787287_489066.pdf" target="_blank">Actuarial Exam Results - ALM</a></li>
+              </ul>
+            </div>
+            <div style="text-align:right;margin-top:0.75rem"><button id="proofsClose2" style="padding:0.5rem 0.75rem;border-radius:0.375rem;border:0;background:#111827;color:#fff;cursor:pointer">Close</button></div>
+          </div>
+        </div>
+
+        <script>
+        (function(){
+          try{
+            var btn = document.getElementById('proofsBtn');
+            var modal = document.getElementById('proofsModal');
+            var close = document.getElementById('proofsClose');
+            var close2 = document.getElementById('proofsClose2');
+            if(btn && modal){
+              btn.addEventListener('click', function(e){ e.preventDefault(); modal.style.display = 'flex'; document.body.style.overflow = 'hidden'; });
+            }
+            if(close){ close.addEventListener('click', function(){ modal.style.display='none'; document.body.style.overflow=''; }); }
+            if(close2){ close2.addEventListener('click', function(){ modal.style.display='none'; document.body.style.overflow=''; }); }
+            if(modal){ modal.addEventListener('click', function(e){ if(e.target === modal){ modal.style.display='none'; document.body.style.overflow=''; } }); }
+          }catch(e){ console.error('Proofs modal init error', e); }
+        })();
+        </script>
       headings:
         about: ''
         education: ''
