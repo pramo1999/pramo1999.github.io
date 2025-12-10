@@ -7,7 +7,7 @@ hugoblox:
 
   identity:
     name: "Pramo Samarasinghe"
-    organization: "Australian Government Actuary (Treasury)"
+    # organization: "Australian Government Actuary (Treasury)"
     type: person
     tagline: "Actuarial Analyst & Computer Scientist"
     description: "Specializing in actuarial modelling, machine learning, and national-scale health data analysis."
