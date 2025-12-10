@@ -2,22 +2,17 @@
 # Leave the homepage title empty to use the site title
 title: ''
 date: 2022-12-11
-type: landing
-
-design:
-  # Default section spacing
-  spacing: '6rem'
-
-sections:
   - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       text: ''
-      # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV (pdf)
-        url: uploads/resume.pdf
+      # Show call-to-action buttons under your biography (optional)
+      buttons:
+        - text: Download CV (pdf)
+          url: uploads/resume.pdf
+        - text: Download CV (word)
+          url: uploads/Resume_Dec2025.docx
       headings:
         about: ''
         education: ''
@@ -32,46 +27,6 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
-  - block: resume-biography-4
-    content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
-      text: ''
-      # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV (word)
-        url: uploads/Resume_Dec2025.docx
-      headings:
-        about: ''
-        education: ''
-        interests: ''
-    design:
-      # Use the new Gradient Mesh which automatically adapts to the selected theme colors
-      background:
-        gradient_mesh:
-          enable: true
-
-      # Avatar customization
-      avatar:
-        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: circle # Options: circle (default), square, rounded
-        
-
-  - block: markdown
-    content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-        Please reach out to collaborate 😃
-    design:
-      columns: '1'
-  - block: collection
-    id: papers
-    content:
       title: Featured Publications
       filters:
         folders:
