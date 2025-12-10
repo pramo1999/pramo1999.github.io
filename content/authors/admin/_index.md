@@ -50,39 +50,54 @@ profiles:
 
 interests:
   - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Actuarial Analysis and Modelling 
+  - Mortality Modelling 
+  - Machine Learning
+  - Haskell
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
-    icon: ""
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+  - area: Bachelor of Computing (Honours)
+    institution: Australian National University
+    date_start: 2025-01-01
+    date_end: 2025-11-01
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
+      **Grade:** First Class Honours
+      
+      **Thesis:** "Rethinking Mortality Using a State-Based Dynamic Probabilistic Model Leveraging National-Scale Health Data."
+      
+      Research involved using the Personal-Level Integrated Data Asset (PLIDA) to improve actuarial forecasting for annuity payments by incorporating health-based impacts.
     button:
       text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
-    icon: ""
-    date_start: 2013-09-01
-    date_end: 2015-05-31
-    summary: |
-      GPA: 4.0/4.0
+      url: '#' # You can link your thesis PDF here later
 
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    icon: ""
-    date_start: 2009-09-01
-    date_end: 2013-05-31
+  - area: Associateship (AIAA)
+    institution: Actuaries Institute Australia
+    date_start: 2019-01-01
+    date_end: 2025-12-01 # Ongoing/Current
     summary: |
-      GPA: 3.9/4.0
+      **Status:** Eligible for Associateship (Awaiting Ceremony)
+      
+      Completed the Foundation Program (6/6) and Actuary Program (4/4). Currently finalizing the Fellowship Program (2/3 completed).
 
-      Minored in Mathematics. President of AI Club.
+  - area: Bachelor of Actuarial Studies
+    institution: Australian National University
+    date_start: 2019-02-01
+    date_end: 2024-12-01
+    summary: |
+      **GPA:** 6.06/7.0
+      
+      **Coursework:** Actuarial Data Analytics, Actuarial Control Cycle, Life Contingencies, Survival Modelling, Derivatives.
+
+  - area: Bachelor of Science
+    institution: Australian National University
+    date_start: 2019-02-01
+    date_end: 2024-12-01
+    summary: |
+      **Major:** Computer Science | **Minor:** Mathematics
+      
+      **GPA:** 6.63/7.0
+      
+      **Coursework:** Algorithms, Number Theory & Cryptography, Structured Programming, Discrete Mathematics.
 
 work:
   - position: Senior AI Research Scientist
