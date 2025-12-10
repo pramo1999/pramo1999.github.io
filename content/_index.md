@@ -118,6 +118,7 @@ sections:
       filters:
         folders:
           - events
+          - events/example
     design:
       view: card
 
