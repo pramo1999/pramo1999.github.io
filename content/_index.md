@@ -41,7 +41,7 @@ sections:
         This research leveraged the **Personal-Level Integrated Data Asset (PLIDA)** to incorporate health-based impacts on mortality and the dynamic nature of individual health status into actuarial forecasting.
     design:
       columns: '1'
-- block: markdown
+  - block: markdown
     content:
       title: '🎓 Education & Credentials'
       subtitle: ''
