@@ -78,7 +78,7 @@ hugoblox:
       enable: false
 
   footer:
-    style: minimal
+    style: coffee
     language_switcher: true
 
   copyright:
