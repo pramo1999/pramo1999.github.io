@@ -35,14 +35,33 @@ sections:
               <button id="proofsClose" aria-label="Close" style="background:none;border:0;font-size:1.25rem;cursor:pointer">✕</button>
             </div>
             <div style="max-height:55vh;overflow:auto;padding-right:0.5rem">
-              <ul style="padding-left:1.25rem;margin:0">
-                <li><a href="/uploads/ProofOfAchievements/anu_transcript.pdf" target="_blank">ANU Transcript</a></li>
-                <li><a href="/uploads/ProofOfAchievements/9576222--exam-result-letter--april-2019---core-principles--cm--cs-and-cb-.pdf" target="_blank">Actuarial Exam Results - Core Principles (CM/CS/CB)</a></li>
-                <li><a href="/uploads/ProofOfAchievements/LIRPD_Results%20Letter_Class%20Registrations_784254_464810.pdf" target="_blank">Actuarial Exam Results - LIRPD</a></li>
-                <li><a href="/uploads/ProofOfAchievements/LIRV_Results%20Letter_Class%20Registrations_788446_489087.pdf" target="_blank">Actuarial Exam Results - LIRV</a></li>
-                <li><a href="/uploads/ProofOfAchievements/CMP%20Results%20Letter_Class%20Registrations_779123_407293.pdf" target="_blank">Actuarial Exam Results - CMP</a></li>
-                <li><a href="/uploads/ProofOfAchievements/ALM_Results%20Letter_Class%20Registrations_787287_489066.pdf" target="_blank">Actuarial Exam Results - ALM</a></li>
+              <h4 style="margin:0 0 0.5rem 0">ANU Transcript</h4>
+              <p style="margin:0 0 0.5rem 0">Proof of degree and course completions. Shows CS2, CM1, CM2, CB1, CB2. (Graduation: Nov 2024)</p>
+              <ul style="padding-left:1.25rem;margin:0 0 0.75rem 0">
+                <li><a href="/uploads/ProofOfAchievements/anu_transcript.pdf" target="_blank">ANU Transcript (PDF)</a></li>
               </ul>
+
+              <h4 style="margin:0 0 0.5rem 0">Actuarial - Core / Part I</h4>
+              <p style="margin:0 0 0.5rem 0">Core Principles (CM/CS/CB) and related exam result letters.</p>
+              <ul style="padding-left:1.25rem;margin:0 0 0.75rem 0">
+                <li><a href="/uploads/ProofOfAchievements/9576222--exam-result-letter--april-2019---core-principles--cm--cs-and-cb-.pdf" target="_blank">Core Principles exam results — April 2019</a></li>
+                <li><a href="/uploads/ProofOfAchievements/CS1_9576222--exam-result-letter--april-2019---core-principles--cm--cs-and-cb-[59].pdf" target="_blank">CS1 exam result — April 2019</a></li>
+              </ul>
+
+              <h4 style="margin:0 0 0.5rem 0">Actuarial - Part II</h4>
+              <p style="margin:0 0 0.5rem 0">Part II papers such as Data & Control Cycle, ALM and CMP.</p>
+              <ul style="padding-left:1.25rem;margin:0 0 0.75rem 0">
+                <li><a href="/uploads/ProofOfAchievements/CMP%20Results%20Letter_Class%20Registrations_779123_407293.pdf" target="_blank">CMP (Control / Data cycle) — year not available in filename</a></li>
+                <li><a href="/uploads/ProofOfAchievements/ALM_Results%20Letter_Class%20Registrations_787287_489066.pdf" target="_blank">ALM — year not available in filename</a></li>
+              </ul>
+
+              <h4 style="margin:0 0 0.5rem 0">Actuarial - Part III</h4>
+              <p style="margin:0 0 0.5rem 0">Advanced practice papers (LIRPD, LIRV).</p>
+              <ul style="padding-left:1.25rem;margin:0 0 0.75rem 0">
+                <li><a href="/uploads/ProofOfAchievements/LIRPD_Results%20Letter_Class%20Registrations_784254_464810.pdf" target="_blank">LIRPD — year not available in filename</a></li>
+                <li><a href="/uploads/ProofOfAchievements/LIRV_Results%20Letter_Class%20Registrations_788446_489087.pdf" target="_blank">LIRV — year not available in filename</a></li>
+              </ul>
+              <p style="margin:0;font-size:0.9rem;color:#6b7280">Note: I included years where they were present in filenames (April 2019). For files without a year in the filename I left "year not available" — tell me if you want me to attempt extracting exact dates from the PDFs.</p>
             </div>
             <div style="text-align:right;margin-top:0.75rem"><button id="proofsClose2" style="padding:0.5rem 0.75rem;border-radius:0.375rem;border:0;background:#111827;color:#fff;cursor:pointer">Close</button></div>
           </div>

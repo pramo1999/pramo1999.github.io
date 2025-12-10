@@ -23,7 +23,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Computer scientist & Associate Actuary
+role: Computer Scientist & Associate Actuary
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
