@@ -50,6 +50,33 @@ sections:
     design:
       columns: '1'
 
+  - block: markdown
+    content:
+      title: '🎓 Education & Credentials'
+      subtitle: ''
+      text: |-
+        **Degree:** Bachelor of Science (Honours), Australian National University  
+        Major: Computing (First Class Honours)  
+        Additional: Actuarial Studies & Science (Double Degrees)  
+        **Graduation:** November 2024
+        
+        **Professional Qualifications:**  
+        Actuaries Institute - Successfully completed all but one actuarial exam  
+        Currently awaiting Associateship (ASA)
+        
+        **Relevant Coursework:**  
+        Machine Learning, Statistical Inference, Data Analysis, Actuarial Modelling, Risk Management
+        
+        **Proof of Achievements:**
+        - [ANU Transcript](uploads/ProofOfAchievements/anu_transcript.pdf)
+        - [Actuarial Exam Results - Core Principles (CM, CS, CB)](uploads/ProofOfAchievements/9576222--exam-result-letter--april-2019---core-principles--cm--cs-and-cb-.pdf)
+        - [Actuarial Exam Results - LIRPD](uploads/ProofOfAchievements/LIRPD_Results%20Letter_Class%20Registrations_784254_464810.pdf)
+        - [Actuarial Exam Results - LIRV](uploads/ProofOfAchievements/LIRV_Results%20Letter_Class%20Registrations_788446_489087.pdf)
+        - [Actuarial Exam Results - CMP](uploads/ProofOfAchievements/CMP%20Results%20Letter_Class%20Registrations_779123_407293.pdf)
+        - [Actuarial Exam Results - ALM](uploads/ProofOfAchievements/ALM_Results%20Letter_Class%20Registrations_787287_489066.pdf)
+    design:
+      columns: '1'
+
   - block: collection
     id: papers
     content:
