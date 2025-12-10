@@ -24,6 +24,39 @@ sections:
         <div style="display:flex;gap:0.5rem;align-items:center">
           <a href="uploads/resume.pdf" style="display:inline-block;padding:0.5rem 1rem;background:#111827;color:#ffffff;border-radius:0.375rem;text-decoration:none">Download CV (pdf)</a>
           <a href="uploads/Resume_Dec2025.docx" style="display:inline-block;padding:0.5rem 1rem;background:#6b7280;color:#ffffff;border-radius:0.375rem;text-decoration:none">Download CV (word)</a>
+        </div>
+      headings:
+        about: ''
+        education: ''
+        interests: ''
+    design:
+      # Use the new Gradient Mesh which automatically adapts to the selected theme colors
+      background:
+        gradient_mesh:
+          enable: true
+      # Avatar customization
+      avatar:
+        size: medium 
+        shape: circle
+
+  - block: markdown
+    content:
+      title: '📚 My Research'
+      subtitle: ''
+      text: |-
+        My Honours thesis, **"Rethinking Mortality Using a State-Based Dynamic Probabilistic Model,"** focused on improving traditional mortality predictions to support better planning horizons for Australian retirees. 
+        
+        This research leveraged the **Personal-Level Integrated Data Asset (PLIDA)** to incorporate health-based impacts on mortality and the dynamic nature of individual health status into actuarial forecasting.
+    design:
+      columns: '1'
+
+  - block: markdown
+    content:
+      title: '🎓 Education & Credentials'
+      subtitle: ''
+      text: |-
+        <!-- Proofs modal trigger & modal inserted here -->
+        <div style="display:flex;gap:0.5rem;align-items:center;margin-bottom:0.5rem">
           <button id="proofsBtn" style="display:inline-block;padding:0.5rem 1rem;border-radius:0.375rem;border:0;background:#0ea5a4;color:#ffffff;cursor:pointer">View Proofs</button>
         </div>
 
@@ -83,36 +116,6 @@ sections:
           }catch(e){ console.error('Proofs modal init error', e); }
         })();
         </script>
-      headings:
-        about: ''
-        education: ''
-        interests: ''
-    design:
-      # Use the new Gradient Mesh which automatically adapts to the selected theme colors
-      background:
-        gradient_mesh:
-          enable: true
-      # Avatar customization
-      avatar:
-        size: medium 
-        shape: circle
-
-  - block: markdown
-    content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        My Honours thesis, **"Rethinking Mortality Using a State-Based Dynamic Probabilistic Model,"** focused on improving traditional mortality predictions to support better planning horizons for Australian retirees. 
-        
-        This research leveraged the **Personal-Level Integrated Data Asset (PLIDA)** to incorporate health-based impacts on mortality and the dynamic nature of individual health status into actuarial forecasting.
-    design:
-      columns: '1'
-
-  - block: markdown
-    content:
-      title: '🎓 Education & Credentials'
-      subtitle: ''
-      text: |-
         **Degree:** Bachelor of Science (Honours), Australian National University  
         Major: Computing (First Class Honours)  
         Additional: Actuarial Studies & Science (Double Degrees)  
