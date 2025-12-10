@@ -15,6 +15,12 @@ sections:
       username: admin
       # Inline HTML for two side-by-side download links (always renders)
       text: |-
+        Hi—I'm Pramo. I am an Actuarial Analyst and Computer Scientist based in Canberra. I recently graduated from the Australian National University with First Class Honours in Computing, alongside degrees in Actuarial Studies and Science.
+
+        I bring over three years of experience from the Australian Government Actuary (Treasury), where I specialize in developing and debugging actuarial models using SAS and R. My research interests lie at the intersection of machine learning and actuarial science, specifically using national-scale health data (PLIDA) to improve mortality forecasting.
+
+        Additionally, I have been actively pursuing my qualification with the Actuaries Institute. Alongside full-time university studies, I have successfully completed all but one actuarial exam and am currently awaiting my Associateship.
+
         <div style="display:flex;gap:0.5rem;align-items:center">
           <a href="uploads/resume.pdf" style="display:inline-block;padding:0.5rem 1rem;background:#111827;color:#ffffff;border-radius:0.375rem;text-decoration:none">Download CV (pdf)</a>
           <a href="uploads/Resume_Dec2025.docx" style="display:inline-block;padding:0.5rem 1rem;background:#6b7280;color:#ffffff;border-radius:0.375rem;text-decoration:none">Download CV (word)</a>
