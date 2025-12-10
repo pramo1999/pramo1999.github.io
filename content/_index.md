@@ -13,13 +13,12 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: ''
-      # Show call-to-action buttons under your biography (optional)
-      buttons:
-        - text: Download CV (pdf)
-          url: uploads/resume.pdf
-        - text: Download CV (word)
-          url: uploads/Resume_Dec2025.docx
+      # Inline HTML for two side-by-side download links (always renders)
+      text: |-
+        <div style="display:flex;gap:0.5rem;align-items:center">
+          <a href="uploads/resume.pdf" style="display:inline-block;padding:0.5rem 1rem;background:#111827;color:#ffffff;border-radius:0.375rem;text-decoration:none">Download CV (pdf)</a>
+          <a href="uploads/Resume_Dec2025.docx" style="display:inline-block;padding:0.5rem 1rem;background:#6b7280;color:#ffffff;border-radius:0.375rem;text-decoration:none">Download CV (word)</a>
+        </div>
       headings:
         about: ''
         education: ''
