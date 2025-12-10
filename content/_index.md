@@ -41,8 +41,7 @@ sections:
         This research leveraged the **Personal-Level Integrated Data Asset (PLIDA)** to incorporate health-based impacts on mortality and the dynamic nature of individual health status into actuarial forecasting.
     design:
       columns: '1'
-
-  - block: markdown
+- block: markdown
     content:
       title: '🎓 Education & Credentials'
       subtitle: ''
@@ -53,7 +52,8 @@ sections:
         **Bachelor of Actuarial Studies & Bachelor of Science** | *Australian National University* Major: Computer Science, Minor: Mathematics  
         *Graduated: Dec 2024*
         
-        **Professional Qualifications** | *Actuaries Institute Australia* * **Associateship (AIAA):** Eligible & Awaiting Ceremony
+        **Professional Qualifications** | *Actuaries Institute Australia*
+        * **Associateship (AIAA):** Eligible & Awaiting Ceremony
         * **Fellowship Program:** 2/3 exams completed (Life Insurance & Retirement)
         * **Actuary Program:** 4/4 exams completed (Control Cycle, Data Science, Asset Liability)
         * **Foundation Program:** 6/6 exams completed
