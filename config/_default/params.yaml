@@ -1,5 +1,5 @@
 # ══════════════════════════════════════════════════════════════════════════════
-# HUGO BLOX CONFIGURATION — BEIGE THEME
+# HUGO BLOX CONFIGURATION — BEIGE THEME (CUSTOMIZED)
 # ══════════════════════════════════════════════════════════════════════════════
 
 hugoblox:
@@ -7,12 +7,14 @@ hugoblox:
 
   identity:
     name: "Pramo Samarasinghe"
-    organization: ""
+    organization: "Australian Government Actuary (Treasury)"
     type: person
-    tagline: ""
-    description: ""
+    tagline: "Actuarial Analyst & Computer Scientist"
+    description: "Specializing in actuarial modelling, machine learning, and national-scale health data analysis."
     social:
-      twitter: "BuildLore"
+      linkedin: "https://www.linkedin.com/in/pramodya-samarasinghe/" # Update this!
+      github: "https://github.com/pramo1999" # Based on your GitHub Pages URL
+      email: "mailto:pramo.samarasinghe@outlook.com" # Update this!
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME — BEIGE PALETTE
