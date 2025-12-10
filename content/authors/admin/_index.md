@@ -100,89 +100,105 @@ education:
       **Coursework:** Algorithms, Number Theory & Cryptography, Structured Programming, Discrete Mathematics.
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
-    icon: ''
-    date_start: 2020-01-01
-    date_end: ''
+  - position: Actuarial Intern
+    company_name: Australian Government Actuary (Treasury)
+    company_url: 'https://treasury.gov.au/'
+    icon: 'building-library'
+    date_start: 2022-09-01
+    date_end: 2025-12-31
     summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
-    icon: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
+      Debugged and developed actuarial models using SAS and R. Drafted technical reports and communicated complex findings to stakeholders.
+  - position: Director of Finance
+    company_name: UN Youth ACT
+    company_url: 'https://unyouth.org.au/'
+    icon: 'currency-dollar'
+    date_start: 2020-12-01
+    date_end: '' # Present
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Oversaw budgets, secured sponsorship, maintained bank accounts, and developed audited financial reports for the division.
+  - position: Research Assistant
+    company_name: Australian National University
+    company_url: 'https://www.anu.edu.au/'
+    icon: 'beaker'
+    date_start: 2020-02-01
+    date_end: 2024-06-01
+    summary: |
+      Researched translating timing aspects of process algebra to mCRL2. Developed algorithms for translation and verification.
+  - position: Research Support Officer
+    company_name: Orima Research
+    company_url: 'https://orima.com.au/'
+    icon: 'chart-pie'
+    date_start: 2021-02-01
+    date_end: 2021-12-01
+    summary: |
+      Conducted data analytics using Excel and SPSS. Assisted with coding open-ended comments and checking data accuracy in reports.
 
 # Skills
-# Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python & PyTorch
-        description: ''
+      - name: R & SAS
+        description: 'Used extensively for actuarial modelling at AGA'
         percent: 95
         icon: code-bracket
-      - name: Machine Learning
-        description: ''
+      - name: Python & Machine Learning
+        description: 'Applied in Honours thesis for mortality modelling'
+        percent: 90
+        icon: cpu-chip
+      - name: Actuarial Modelling
+        description: 'GLMs, Survival Models, Risk Modelling'
         percent: 100
         icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
-        description: ''
+      - name: Java & Haskell
+        description: 'High Distinction achieved; Tutored courses'
         percent: 85
-        icon: cloud
-  - name: Hobbies
+        icon: terminal
+  - name: Professional & Community
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking in the Rockies
-        description: ''
-        percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
-        description: ''
+      - name: Leadership & Mentoring
+        description: 'Set4ANU Mentor, PAL Mentor, Course Rep'
         percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
-        description: ''
-        percent: 70
-        icon: book-open
+        icon: user-group
+      - name: Event Organizing
+        description: 'Logic Summer School Organizer'
+        percent: 85
+        icon: calendar
+      - name: Financial Governance
+        description: 'Budgeting & Auditing (UN Youth)'
+        percent: 80
+        icon: banknotes
 
 languages:
   - name: English
     percent: 100
-  - name: Spanish
-    percent: 50
+  - name: Sinhala
+    percent: 100
 
 # Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
+  - title: GovHack 2023 Winner
+    url: https://govhack.org/
+    date: '2023-08-20'
+    awarder: GovHack
     icon: hero/trophy
     summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
-    summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
+      Delivered a winning presentation on Victorian recycling trends.
+  - title: First Class Honours
+    url: https://www.anu.edu.au/
+    date: '2025-12-01'
+    awarder: Australian National University
     icon: hero/academic-cap
     summary: |
-      Recognized for contributions to scaling laws in deep learning.
+      Achieved a thesis grade of 92% for research on State-Based Dynamic Probabilistic Mortality Models.
+  - title: Associateship Eligibility
+    url: https://www.actuaries.asn.au/
+    date: '2025-11-01'
+    awarder: Actuaries Institute Australia
+    icon: hero/check-badge
+    summary: |
+      Confirmed eligibility for Associateship (AIAA) after completing Foundation and Actuary programs.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+Pramo Samarasinghe is an Actuarial Analyst and Computer Scientist with over three years of experience at the Australian Government Actuary (Treasury). A recent First Class Honours graduate from ANU, he specializes in the intersection of actuarial science and machine learning, specifically using national-scale health data to improve mortality forecasting. Outside of his technical work, Pramo is a dedicated leader in the community, serving as the Director of Finance for UN Youth ACT and mentoring students through university programs.
