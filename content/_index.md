@@ -109,7 +109,7 @@ sections:
 
   # --- NEW: Horizontal Scroll R-Blog Section ---
   - block: collection
-    id: rblog
+    id: blog
     content:
       title: R-Blog & Actuarial Projects
       subtitle: 'Scroll to see more →'
