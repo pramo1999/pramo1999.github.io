@@ -36,27 +36,29 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        My Honours thesis, **"Rethinking Mortality Using a State-Based Dynamic Probabilistic Model,"** focused on improving traditional mortality predictions to support better planning horizons for Australian retirees. 
+        [cite_start]My Honours thesis, **"Rethinking Mortality Using a State-Based Dynamic Probabilistic Model,"** focused on improving traditional mortality predictions to support better planning horizons for Australian retirees[cite: 6]. 
         
-        This research leveraged the **Personal-Level Integrated Data Asset (PLIDA)** to incorporate health-based impacts on mortality and the dynamic nature of individual health status into actuarial forecasting.
+        [cite_start]This research leveraged the **Personal-Level Integrated Data Asset (PLIDA)** to incorporate health-based impacts on mortality and the dynamic nature of individual health status into actuarial forecasting[cite: 8].
     design:
       columns: '1'
+      
   - block: markdown
     content:
       title: '🎓 Education & Credentials'
       subtitle: ''
       text: |-
         **Bachelor of Computing (Honours)** | *Australian National University* First Class Honours (Thesis Grade: 92%)  
-        *Graduated: Dec 2025*
+        [cite_start]*Graduated: Dec 2025* [cite: 6]
 
         **Bachelor of Actuarial Studies & Bachelor of Science** | *Australian National University* Major: Computer Science, Minor: Mathematics  
-        *Graduated: Dec 2024*
+        [cite_start]*Graduated: Dec 2024* [cite: 15, 18]
         
         **Professional Qualifications** | *Actuaries Institute Australia*
-        * **Associateship (AIAA):** Eligible & Awaiting Ceremony
-        * **Fellowship Program:** 2/3 exams completed (Life Insurance & Retirement)
-        * **Actuary Program:** 4/4 exams completed (Control Cycle, Data Science, Asset Liability)
-        * **Foundation Program:** 6/6 exams completed
+        
+        * [cite_start]**Associateship (AIAA):** Eligible & Awaiting Ceremony [cite: 11]
+        * [cite_start]**Fellowship Program:** 2/3 exams completed (Life Insurance & Retirement) [cite: 14]
+        * [cite_start]**Actuary Program:** 4/4 exams completed (Control Cycle, Data Science, Asset Liability) [cite: 13]
+        * [cite_start]**Foundation Program:** 6/6 exams completed [cite: 12]
 
         <br>
 
