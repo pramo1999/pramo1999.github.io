@@ -38,62 +38,66 @@ sections:
       text: |-
         My Honours thesis, **"Rethinking Mortality Using a State-Based Dynamic Probabilistic Model,"** focused on improving traditional mortality predictions to support better planning horizons for Australian retirees. 
         
-        This research leveraged the **Personal-Level Integrated Data Asset (PLIDA)** to incorporate health-based impacts on mortality and the dynamic nature of individual health status into actuarial forecasting.
+        [cite_start]This research leveraged the **Personal-Level Integrated Data Asset (PLIDA)** to incorporate health-based impacts on mortality and the dynamic nature of individual health status into actuarial forecasting[cite: 8].
     design:
       columns: '1'
 
-  # --- SPLIT 1: Markdown Text for Education ---
   - block: markdown
     content:
       title: '🎓 Education & Credentials'
       subtitle: ''
-      text: |-
-        **Bachelor of Computing (Honours)** | *Australian National University* First Class Honours (Thesis Grade: 92%)  
-        *Graduated: Dec 2025*
-
-        **Bachelor of Actuarial Studies & Bachelor of Science** | *Australian National University* Major: Computer Science, Minor: Mathematics  
-        *Graduated: Dec 2024*
-        
-        **Professional Qualifications** | *Actuaries Institute Australia*
-        
-        * **Associateship (AIAA):** Eligible & Awaiting Ceremony
-        * **Fellowship Program:** 2/3 exams completed (Life Insurance & Retirement)
-        * **Actuary Program:** 4/4 exams completed (Control Cycle, Data Science, Asset Liability)
-        * **Foundation Program:** 6/6 exams completed
-    design:
-      columns: '1'
-
-  # --- SPLIT 2: HTML Dropdown for Proofs (Separate Block) ---
-  - block: markdown
-    content:
       text: |
-        <details style="background-color: #3D342A; color: #ffffff; padding: 1rem; border-radius: 0.5rem; border: 1px solid #5C4F42;">
-        <summary style="cursor: pointer; font-weight: bold; color: #0ea5a4;">📂 Click to View Official Transcripts & Results</summary>
-        <div style="margin-top: 1rem;">
-        <p style="margin-bottom: 5px;"><strong>University Transcripts</strong></p>
-        <ul style="margin-top: 0; padding-left: 20px;">
-        <li><a href="uploads/ProofOfAchievements/anu_transcript.pdf" target="_blank">📄 ANU Official Transcript</a></li>
-        </ul>
-        <p style="margin-bottom: 5px; margin-top: 15px;"><strong>Actuarial Exam Results (Core Principles)</strong></p>
-        <ul style="margin-top: 0; padding-left: 20px;">
-        <li><a href="uploads/ProofOfAchievements/9576222--exam-result-letter--april-2019---core-principles--cm--cs-and-cb-.pdf" target="_blank">📄 Core Principles Results (CM, CS, CB)</a></li>
-        <li><a href="uploads/ProofOfAchievements/CS1_9576222--exam-result-letter--april-2019---core-principles--cm--cs-and-cb-[59].pdf" target="_blank">📄 CS1 Exam Result</a></li>
-        </ul>
-        <p style="margin-bottom: 5px; margin-top: 15px;"><strong>Actuarial Exam Results (Part II & III)</strong></p>
-        <ul style="margin-top: 0; padding-left: 20px;">
-        <li><a href="uploads/ProofOfAchievements/CMP%20Results%20Letter_Class%20Registrations_779123_407293.pdf" target="_blank">📄 CMP (Control Cycle)</a></li>
-        <li><a href="uploads/ProofOfAchievements/ALM_Results%20Letter_Class%20Registrations_787287_489066.pdf" target="_blank">📄 ALM (Asset Liability Management)</a></li>
-        <li><a href="uploads/ProofOfAchievements/LIRPD_Results%20Letter_Class%20Registrations_784254_464810.pdf" target="_blank">📄 LIRPD (Life Insurance Product Dev)</a></li>
-        <li><a href="uploads/ProofOfAchievements/LIRV_Results%20Letter_Class%20Registrations_788446_489087.pdf" target="_blank">📄 LIRV (Life Insurance Valuation)</a></li>
-        </ul>
-        <p style="margin-bottom: 5px;"><strong>Proof of completion </strong></p>
-        <ul style="margin-top: 0; padding-left: 20px;">
-        <li><a href="uploads/ProofOfAchievements/7056548 -  Bachelor of Actuarial Studies.pdf" target="_blank">📄 Bachelor of Actuarial Studies & Bachelor of Science</a></li>
-        </ul>
-        <ul style="margin-top: 0; padding-left: 20px;">
-        <li><a href="uploads/ProofOfAchievements/Completion Letter u7056548-honours.pdf" target="_blank">📄 Bachelor of Computing Honours</a></li>
-        </ul>
+        <div style="margin-bottom: 2.5rem;">
+          <h3 style="margin-bottom: 0.5rem; font-size: 1.25rem;">Bachelor of Computing (Honours)</h3>
+          <p style="margin: 0; color: #4b5563;"><em>Australian National University</em> | Graduated: Dec 2025</p>
+          <p style="margin-top: 0.5rem;"><strong>Grade:</strong> First Class Honours (Thesis: 92%)</p>
+          <p style="margin-top: 0.5rem; font-size: 0.95rem;">
+            <strong>Thesis:</strong> "Rethinking Mortality Using a State-Based Dynamic Probabilistic Model Leveraging National-Scale Health Data" <br>
+            <strong>Relevant Coursework:</strong> Statistical Machine Learning, Research Methods, Document Analysis, Computer Vision.
+          </p>
         </div>
+
+        <div style="margin-bottom: 2.5rem;">
+          <h3 style="margin-bottom: 0.5rem; font-size: 1.25rem;">Bachelor of Actuarial Studies & Bachelor of Science</h3>
+          <p style="margin: 0; color: #4b5563;"><em>Australian National University</em> | Graduated: Dec 2024</p>
+          <p style="margin-top: 0.5rem;"><strong>GPA:</strong> Science (6.63/7.0) | Actuarial (6.06/7.0)</p>
+          <p style="margin-top: 0.5rem; font-size: 0.95rem;">
+            <strong>Major:</strong> Computer Science | <strong>Minor:</strong> Mathematics <br>
+            <strong>Key Coursework:</strong> Algorithms, Number Theory & Cryptography, Actuarial Data Analytics, Survival Modelling, Life Contingencies.
+          </p>
+        </div>
+
+        <div style="margin-bottom: 2.5rem;">
+          <h3 style="margin-bottom: 0.5rem; font-size: 1.25rem;">Professional Qualifications</h3>
+          <p style="margin: 0; color: #4b5563;"><em>Actuaries Institute Australia</em></p>
+          <ul style="list-style-type: disc; padding-left: 1.5rem; margin-top: 0.5rem;">
+            <li><strong>Associateship (AIAA):</strong> Eligible & Awaiting Ceremony</li>
+            <li><strong>Fellowship Program:</strong> 2/3 exams completed (Life Insurance & Retirement Product Development & Valuation)</li>
+            <li><strong>Actuary Program:</strong> 4/4 exams completed (Control Cycle, Data Science Principles, Asset Liability Matching)</li>
+            <li><strong>Foundation Program:</strong> 6/6 exams completed (Statistics, Economics, Finance, Mathematics)</li>
+          </ul>
+        </div>
+
+        <details style="background-color: #3D342A; color: #ffffff; padding: 1rem; border-radius: 0.5rem; border: 1px solid #5C4F42;">
+          <summary style="cursor: pointer; font-weight: bold; color: #C6A988;">📂 Click to View Official Transcripts & Results</summary>
+          <div style="margin-top: 1rem;">
+            <p style="margin-bottom: 5px;"><strong>University Transcripts</strong></p>
+            <ul style="margin-top: 0; padding-left: 20px;">
+              <li><a href="uploads/ProofOfAchievements/anu_transcript.pdf" target="_blank" style="color: #D2BFA5;">📄 ANU Official Transcript</a></li>
+            </ul>
+            <p style="margin-bottom: 5px; margin-top: 15px;"><strong>Actuarial Exam Results (Core Principles)</strong></p>
+            <ul style="margin-top: 0; padding-left: 20px;">
+              <li><a href="uploads/ProofOfAchievements/9576222--exam-result-letter--april-2019---core-principles--cm--cs-and-cb-.pdf" target="_blank" style="color: #D2BFA5;">📄 Core Principles Results (CM, CS, CB)</a></li>
+              <li><a href="uploads/ProofOfAchievements/CS1_9576222--exam-result-letter--april-2019---core-principles--cm--cs-and-cb-[59].pdf" target="_blank" style="color: #D2BFA5;">📄 CS1 Exam Result</a></li>
+            </ul>
+            <p style="margin-bottom: 5px; margin-top: 15px;"><strong>Actuarial Exam Results (Part II & III)</strong></p>
+            <ul style="margin-top: 0; padding-left: 20px;">
+              <li><a href="uploads/ProofOfAchievements/CMP%20Results%20Letter_Class%20Registrations_779123_407293.pdf" target="_blank" style="color: #D2BFA5;">📄 CMP (Control Cycle)</a></li>
+              <li><a href="uploads/ProofOfAchievements/ALM_Results%20Letter_Class%20Registrations_787287_489066.pdf" target="_blank" style="color: #D2BFA5;">📄 ALM (Asset Liability Management)</a></li>
+              <li><a href="uploads/ProofOfAchievements/LIRPD_Results%20Letter_Class%20Registrations_784254_464810.pdf" target="_blank" style="color: #D2BFA5;">📄 LIRPD (Life Insurance Product Dev)</a></li>
+              <li><a href="uploads/ProofOfAchievements/LIRV_Results%20Letter_Class%20Registrations_788446_489087.pdf" target="_blank" style="color: #D2BFA5;">📄 LIRV (Life Insurance Valuation)</a></li>
+            </ul>
+          </div>
         </details>
     design:
       columns: '1'
@@ -153,4 +157,4 @@ sections:
     design:
       view: card
       spacing:
----
+        padding: [0, 0, 0, 0]
