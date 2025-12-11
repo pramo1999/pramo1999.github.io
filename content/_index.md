@@ -112,37 +112,39 @@ sections:
         <div style="margin-bottom: 2.5rem;">
         <h3 style="margin-bottom: 0.5rem; font-size: 1.25rem;">Bachelor of Computing (Honours)</h3>
         <p style="margin: 0; color: #4b5563;"><em>Australian National University</em> | Graduated: Dec 2025</p>
-        <p style="margin-top: 0.5rem;"><strong>Grade:</strong> First Class Honours (Thesis: 92%) [cite: 6]</p>
+        <p style="margin-top: 0.5rem;"><strong>Grade:</strong> First Class Honours (Thesis: 92%)</p>
         <p style="margin-top: 0.5rem; font-size: 0.95rem;">
-        <strong>Thesis:</strong> "Rethinking Mortality Using a State-Based Dynamic Probabilistic Model Leveraging National-Scale Health Data" [cite: 6]<br>
-        <strong>Relevant Coursework:</strong> Statistical Machine Learning, Research Methods, Document Analysis, Computer Vision[cite: 9].
+        <strong>Thesis:</strong> "Rethinking Mortality Using a State-Based Dynamic Probabilistic Model Leveraging National-Scale Health Data"<br>
+        <strong>Relevant Coursework:</strong> Statistical Machine Learning, Research Methods, Document Analysis, Computer Vision.
         </p>
         </div>
         <div style="margin-bottom: 2.5rem;">
         <h3 style="margin-bottom: 0.5rem; font-size: 1.25rem;">Bachelor of Actuarial Studies & Bachelor of Science</h3>
         <p style="margin: 0; color: #4b5563;"><em>Australian National University</em> | Graduated: Dec 2024</p>
-        <p style="margin-top: 0.5rem;"><strong>GPA:</strong> Science (6.63/7.0) [cite: 16] | Actuarial (6.06/7.0) [cite: 18]</p>
+        <p style="margin-top: 0.5rem;"><strong>GPA:</strong> Science (6.63/7.0) | Actuarial (6.06/7.0)</p>
         <p style="margin-top: 0.5rem; font-size: 0.95rem;">
-        <strong>Major:</strong> Computer Science | <strong>Minor:</strong> Mathematics [cite: 16]<br>
-        <strong>Key Coursework:</strong> Algorithms, Number Theory & Cryptography, Actuarial Data Analytics, Survival Modelling, Life Contingencies[cite: 17, 19].
+        <strong>Major:</strong> Computer Science | <strong>Minor:</strong> Mathematics<br>
+        <strong>Key Coursework:</strong> Algorithms, Number Theory & Cryptography, Actuarial Data Analytics, Survival Modelling, Life Contingencies.
         </p>
         </div>
         <div style="margin-bottom: 2.5rem;">
         <h3 style="margin-bottom: 0.5rem; font-size: 1.25rem;">Professional Qualifications</h3>
         <p style="margin: 0; color: #4b5563;"><em>Actuaries Institute Australia</em></p>
         <ul style="list-style-type: disc; padding-left: 1.5rem; margin-top: 0.5rem;">
-        <li><strong>Associateship (AIAA):</strong> Eligible & Awaiting Ceremony [cite: 11]</li>
-        <li><strong>Fellowship Program:</strong> 2/3 exams completed (Life Insurance & Retirement Product Development & Valuation) [cite: 14]</li>
-        <li><strong>Actuary Program:</strong> 4/4 exams completed (Control Cycle, Data Science Principles, Asset Liability Matching) [cite: 13]</li>
-        <li><strong>Foundation Program:</strong> 6/6 exams completed (Statistics, Economics, Finance, Mathematics) [cite: 12]</li>
+        <li><strong>Associateship (AIAA):</strong> Eligible & Awaiting Ceremony</li>
+        <li><strong>Fellowship Program:</strong> 2/3 exams completed (Life Insurance & Retirement Product Development & Valuation)</li>
+        <li><strong>Actuary Program:</strong> 4/4 exams completed (Control Cycle, Data Science Principles, Asset Liability Matching)</li>
+        <li><strong>Foundation Program:</strong> 6/6 exams completed (Statistics, Economics, Finance, Mathematics)</li>
         </ul>
         </div>
         <details style="background-color: #3D342A; padding: 1rem; border-radius: 0.5rem; border: 1px solid #5C4F42; color: #ffffff !important;">
-        <summary style="cursor: pointer; font-weight: bold; color: #ffffff !important;">📂 Click to View Official Transcripts & Results</summary>
+        <summary style="cursor: pointer; font-weight: bold; color: #ffffff !important;">📂 Click to View Official Transcripts, Completion Letters & Results</summary>
         <div style="margin-top: 1rem; color: #ffffff !important;">
-        <p style="margin-bottom: 5px; color: #ffffff !important;"><strong>University Transcripts</strong></p>
+        <p style="margin-bottom: 5px; color: #ffffff !important;"><strong>University Documents</strong></p>
         <ul style="margin-top: 0; padding-left: 20px; color: #ffffff !important;">
         <li style="color: #ffffff !important;"><a href="uploads/ProofOfAchievements/anu_transcript.pdf" target="_blank" style="color: #ffffff !important; text-decoration: underline;">📄 ANU Official Transcript</a></li>
+        <li style="color: #ffffff !important;"><a href="uploads/ProofOfAchievements/Completion%20Letter%20u7056548-honours.pdf" target="_blank" style="color: #ffffff !important; text-decoration: underline;">📄 Honours Completion Letter</a></li>
+        <li style="color: #ffffff !important;"><a href="uploads/ProofOfAchievements/7056548%20-%20Bachelor%20of%20Actuarial%20Studies.pdf" target="_blank" style="color: #ffffff !important; text-decoration: underline;">📄 Bachelor of Actuarial Studies Completion</a></li>
         </ul>
         <p style="margin-bottom: 5px; margin-top: 15px; color: #ffffff !important;"><strong>Actuarial Exam Results (Core Principles)</strong></p>
         <ul style="margin-top: 0; padding-left: 20px; color: #ffffff !important;">
