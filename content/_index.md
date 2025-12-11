@@ -79,7 +79,7 @@ sections:
         </div>
 
         <details style="background-color: #3D342A; color: #3D342A; padding: 1rem; border-radius: 0.5rem; border: 1px solid #5C4F42;">
-          <summary style="cursor: pointer; font-weight: bold; color: #C6A988;">📂 Click to View Official Transcripts & Results</summary>
+          <summary style="cursor: pointer; font-weight: bold; color: #3D342A;">📂 Click to View Official Transcripts & Results</summary>
           <div style="margin-top: 1rem;">
             <p style="margin-bottom: 5px;"><strong>University Transcripts</strong></p>
             <ul style="margin-top: 0; padding-left: 20px;">
