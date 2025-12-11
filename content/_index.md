@@ -42,7 +42,7 @@ sections:
     design:
       columns: '1'
 
-  - block: markdown
+ - block: markdown
     content:
       title: '🎓 Education & Credentials'
       subtitle: ''
@@ -78,24 +78,24 @@ sections:
           </ul>
         </div>
 
-        <details style="background-color: #3D342A; color: #3D342A; padding: 1rem; border-radius: 0.5rem; border: 1px solid #5C4F42;">
-          <summary style="cursor: pointer; font-weight: bold; color: #3D342A;">📂 Click to View Official Transcripts & Results</summary>
+        <details style="background-color: #3D342A; color: #ffffff; padding: 1rem; border-radius: 0.5rem; border: 1px solid #5C4F42;">
+          <summary style="cursor: pointer; font-weight: bold; color: #ffffff;">📂 Click to View Official Transcripts & Results</summary>
           <div style="margin-top: 1rem;">
             <p style="margin-bottom: 5px;"><strong>University Transcripts</strong></p>
             <ul style="margin-top: 0; padding-left: 20px;">
-              <li><a href="uploads/ProofOfAchievements/anu_transcript.pdf" target="_blank" style="color: #3D342A;">📄 ANU Official Transcript</a></li>
+              <li><a href="uploads/ProofOfAchievements/anu_transcript.pdf" target="_blank" style="color: #ffffff; text-decoration: underline;">📄 ANU Official Transcript</a></li>
             </ul>
             <p style="margin-bottom: 5px; margin-top: 15px;"><strong>Actuarial Exam Results (Core Principles)</strong></p>
             <ul style="margin-top: 0; padding-left: 20px;">
-              <li><a href="uploads/ProofOfAchievements/9576222--exam-result-letter--april-2019---core-principles--cm--cs-and-cb-.pdf" target="_blank" style="color: #3D342A;">📄 Core Principles Results (CM, CS, CB)</a></li>
-              <li><a href="uploads/ProofOfAchievements/CS1_9576222--exam-result-letter--april-2019---core-principles--cm--cs-and-cb-[59].pdf" target="_blank" style="color: #3D342A;">📄 CS1 Exam Result</a></li>
+              <li><a href="uploads/ProofOfAchievements/9576222--exam-result-letter--april-2019---core-principles--cm--cs-and-cb-.pdf" target="_blank" style="color: #ffffff; text-decoration: underline;">📄 Core Principles Results (CM, CS, CB)</a></li>
+              <li><a href="uploads/ProofOfAchievements/CS1_9576222--exam-result-letter--april-2019---core-principles--cm--cs-and-cb-[59].pdf" target="_blank" style="color: #ffffff; text-decoration: underline;">📄 CS1 Exam Result</a></li>
             </ul>
             <p style="margin-bottom: 5px; margin-top: 15px;"><strong>Actuarial Exam Results (Part II & III)</strong></p>
             <ul style="margin-top: 0; padding-left: 20px;">
-              <li><a href="uploads/ProofOfAchievements/CMP%20Results%20Letter_Class%20Registrations_779123_407293.pdf" target="_blank" style="color: #3D342A;">📄 CMP (Control Cycle)</a></li>
-              <li><a href="uploads/ProofOfAchievements/ALM_Results%20Letter_Class%20Registrations_787287_489066.pdf" target="_blank" style="color: #3D342A;">📄 ALM (Asset Liability Management)</a></li>
-              <li><a href="uploads/ProofOfAchievements/LIRPD_Results%20Letter_Class%20Registrations_784254_464810.pdf" target="_blank" style="color: #3D342A;">📄 LIRPD (Life Insurance Product Dev)</a></li>
-              <li><a href="uploads/ProofOfAchievements/LIRV_Results%20Letter_Class%20Registrations_788446_489087.pdf" target="_blank" style="color: #3D342A;">📄 LIRV (Life Insurance Valuation)</a></li>
+              <li><a href="uploads/ProofOfAchievements/CMP%20Results%20Letter_Class%20Registrations_779123_407293.pdf" target="_blank" style="color: #ffffff; text-decoration: underline;">📄 CMP (Control Cycle)</a></li>
+              <li><a href="uploads/ProofOfAchievements/ALM_Results%20Letter_Class%20Registrations_787287_489066.pdf" target="_blank" style="color: #ffffff; text-decoration: underline;">📄 ALM (Asset Liability Management)</a></li>
+              <li><a href="uploads/ProofOfAchievements/LIRPD_Results%20Letter_Class%20Registrations_784254_464810.pdf" target="_blank" style="color: #ffffff; text-decoration: underline;">📄 LIRPD (Life Insurance Product Dev)</a></li>
+              <li><a href="uploads/ProofOfAchievements/LIRV_Results%20Letter_Class%20Registrations_788446_489087.pdf" target="_blank" style="color: #ffffff; text-decoration: underline;">📄 LIRV (Life Insurance Valuation)</a></li>
             </ul>
           </div>
         </details>
