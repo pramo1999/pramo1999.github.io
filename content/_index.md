@@ -114,16 +114,16 @@ sections:
       view: article-grid
       columns: 2
 
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ''
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
-    design:
-      view: citation
+  # - block: collection
+  #   content:
+  #     title: Recent Publications
+  #     text: ''
+  #     filters:
+  #       folders:
+  #         - publications
+  #       exclude_featured: false
+  #   design:
+  #     view: citation
 
   - block: collection
     id: talks
@@ -134,7 +134,7 @@ sections:
           - events
           - events/example
     design:
-      view: card
+      view: article-grid#card
 
   - block: collection
     id: news
