@@ -33,7 +33,7 @@ tags:
 featured: true
 
 image:
-  filename: content/events/example/featured.jpg
+  filename: featured.jpg
   focal_point: Center
   preview_only: false
 
