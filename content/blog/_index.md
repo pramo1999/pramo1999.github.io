@@ -1,5 +1,6 @@
 ---
 title: Blog
+view: article-grid
 summary: "Insights on Actuarial Science, Machine Learning, and R."
 type: landing
 

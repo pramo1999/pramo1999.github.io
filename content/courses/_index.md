@@ -1,5 +1,6 @@
 ---
 title: Courses
+view: article-grid
 summary: My courses
 type: landing
 
