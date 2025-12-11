@@ -33,7 +33,7 @@ tags:
 featured: true
 
 image:
-  filename: events/photo/unsw.svg
+  filename: events/photo/unsw.jpg
   focal_point: Center
   preview_only: false
 
