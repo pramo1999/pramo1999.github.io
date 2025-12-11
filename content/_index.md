@@ -146,4 +146,4 @@ sections:
     design:
       view: card
       spacing:
-        padding: [0, 0, 0, 0]
+---
