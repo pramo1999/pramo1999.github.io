@@ -163,18 +163,34 @@ sections:
     design:
       columns: '1'
 
+  # - block: collection
+  #   id: papers
+  #   content:
+  #     title: Featured Publications
+  #     filters:
+  #       folders:
+  #         - publications
+  #       featured_only: true
+  #   design:
+  #     view: article-grid
+  #     columns: 2
   - block: collection
-    id: papers
+    id: rblog
     content:
-      title: Featured Publications
+      title: R-Blog
+      subtitle: "My latest work in R and Actuarial Modelling"
+      text: ''
+      count: 5
       filters:
-        folders:
-          - publications
-        featured_only: true
+        # Make sure your posts have this tag in their front matter!
+        tags:
+          - R
+        exclude_featured: false
     design:
-      view: article-grid
+      view: card
       columns: 2
-
+      # We add a custom class here to target it with CSS later
+      css_class: "horizontal-scroll-section"
   # - block: collection
   #   content:
   #     title: Recent Publications

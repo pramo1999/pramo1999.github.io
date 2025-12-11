@@ -54,6 +54,7 @@ interests:
   - Mortality Modelling 
   - Machine Learning
   - Haskell
+  - Algorithms 
 
 education:
   - area: Bachelor of Computing (Honours)
