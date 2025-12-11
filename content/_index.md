@@ -41,7 +41,8 @@ sections:
         This research leveraged the **Personal-Level Integrated Data Asset (PLIDA)** to incorporate health-based impacts on mortality and the dynamic nature of individual health status into actuarial forecasting.
     design:
       columns: '1'
-      
+
+  # --- SPLIT 1: Markdown Text for Education ---
   - block: markdown
     content:
       title: '🎓 Education & Credentials'
@@ -59,9 +60,13 @@ sections:
         * **Fellowship Program:** 2/3 exams completed (Life Insurance & Retirement)
         * **Actuary Program:** 4/4 exams completed (Control Cycle, Data Science, Asset Liability)
         * **Foundation Program:** 6/6 exams completed
+    design:
+      columns: '1'
 
-        <br>
-
+  # --- SPLIT 2: HTML Dropdown for Proofs (Separate Block) ---
+  - block: markdown
+    content:
+      text: |
         <details style="background-color: #f3f4f6; padding: 1rem; border-radius: 0.5rem; border: 1px solid #e5e7eb;">
         <summary style="cursor: pointer; font-weight: bold; color: #0ea5a4;">📂 Click to View Official Transcripts & Results</summary>
         <div style="margin-top: 1rem;">
@@ -142,4 +147,3 @@ sections:
       view: card
       spacing:
         padding: [0, 0, 0, 0]
----
