@@ -67,7 +67,7 @@ sections:
   - block: markdown
     content:
       text: |
-        <details style="background-color: #f3f4f6; padding: 1rem; border-radius: 0.5rem; border: 1px solid #e5e7eb;">
+        <details style="background-color: #3D342A; color: #ffffff; padding: 1rem; border-radius: 0.5rem; border: 1px solid #5C4F42;">
         <summary style="cursor: pointer; font-weight: bold; color: #0ea5a4;">📂 Click to View Official Transcripts & Results</summary>
         <div style="margin-top: 1rem;">
         <p style="margin-bottom: 5px;"><strong>University Transcripts</strong></p>
