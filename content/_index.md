@@ -38,7 +38,7 @@ sections:
       text: |-
         My Honours thesis, **"Rethinking Mortality Using a State-Based Dynamic Probabilistic Model,"** focused on improving traditional mortality predictions to support better planning horizons for Australian retirees. 
         
-        [cite_start]This research leveraged the **Personal-Level Integrated Data Asset (PLIDA)** to incorporate health-based impacts on mortality and the dynamic nature of individual health status into actuarial forecasting[cite: 8].
+        This research leveraged the **Personal-Level Integrated Data Asset (PLIDA)** to incorporate health-based impacts on mortality and the dynamic nature of individual health status into actuarial forecasting.
     design:
       columns: '1'
 
@@ -158,3 +158,4 @@ sections:
       view: card
       spacing:
         padding: [0, 0, 0, 0]
+---
