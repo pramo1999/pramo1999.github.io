@@ -86,6 +86,13 @@ sections:
         <li><a href="uploads/ProofOfAchievements/LIRPD_Results%20Letter_Class%20Registrations_784254_464810.pdf" target="_blank">📄 LIRPD (Life Insurance Product Dev)</a></li>
         <li><a href="uploads/ProofOfAchievements/LIRV_Results%20Letter_Class%20Registrations_788446_489087.pdf" target="_blank">📄 LIRV (Life Insurance Valuation)</a></li>
         </ul>
+        <p style="margin-bottom: 5px;"><strong>Proof of completion </strong></p>
+        <ul style="margin-top: 0; padding-left: 20px;">
+        <li><a href="uploads/ProofOfAchievements/7056548 -  Bachelor of Actuarial Studies.pdf" target="_blank">📄 Bachelor of Actuarial Studies & Bachelor of Science</a></li>
+        </ul>
+        <ul style="margin-top: 0; padding-left: 20px;">
+        <li><a href="uploads/ProofOfAchievements/Completion Letter u7056548-honours.pdf" target="_blank">📄 Bachelor of Computing Honours</a></li>
+        </ul>
         </div>
         </details>
     design:
