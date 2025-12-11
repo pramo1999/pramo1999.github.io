@@ -15,18 +15,13 @@ sections:
     id: courses
     content:
       title: Courses
+      subtitle: 'Selected High Distinction & Specialized Coursework'
       filters:
         tag: Course
         kinds:
           - section
-    design:
-      view: article-grid
-      show_read_time: false
-      show_date: false
-      show_read_more: false
-      columns: 1
-    subtitle: 'Selected High Distinction & Specialized Coursework'
-    text: |
+      # This text block contains your grades table
+      text: |
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 1rem;">
           
           <div style="background-color: #f9fafb; padding: 1.5rem; border-radius: 0.5rem; border: 1px solid #e5e7eb;">
@@ -88,5 +83,9 @@ sections:
 
         </div>
     design:
-      columns: '1'
+      view: article-grid
+      show_read_time: false
+      show_date: false
+      show_read_more: false
+      columns: 1
 ---
