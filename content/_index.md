@@ -83,19 +83,19 @@ sections:
           <div style="margin-top: 1rem;">
             <p style="margin-bottom: 5px;"><strong>University Transcripts</strong></p>
             <ul style="margin-top: 0; padding-left: 20px;">
-              <li><a href="uploads/ProofOfAchievements/anu_transcript.pdf" target="_blank" style="color: #D2BFA5;">📄 ANU Official Transcript</a></li>
+              <li><a href="uploads/ProofOfAchievements/anu_transcript.pdf" target="_blank" style="color: #3D342A;">📄 ANU Official Transcript</a></li>
             </ul>
             <p style="margin-bottom: 5px; margin-top: 15px;"><strong>Actuarial Exam Results (Core Principles)</strong></p>
             <ul style="margin-top: 0; padding-left: 20px;">
-              <li><a href="uploads/ProofOfAchievements/9576222--exam-result-letter--april-2019---core-principles--cm--cs-and-cb-.pdf" target="_blank" style="color: #D2BFA5;">📄 Core Principles Results (CM, CS, CB)</a></li>
-              <li><a href="uploads/ProofOfAchievements/CS1_9576222--exam-result-letter--april-2019---core-principles--cm--cs-and-cb-[59].pdf" target="_blank" style="color: #D2BFA5;">📄 CS1 Exam Result</a></li>
+              <li><a href="uploads/ProofOfAchievements/9576222--exam-result-letter--april-2019---core-principles--cm--cs-and-cb-.pdf" target="_blank" style="color: #3D342A;">📄 Core Principles Results (CM, CS, CB)</a></li>
+              <li><a href="uploads/ProofOfAchievements/CS1_9576222--exam-result-letter--april-2019---core-principles--cm--cs-and-cb-[59].pdf" target="_blank" style="color: #3D342A;">📄 CS1 Exam Result</a></li>
             </ul>
             <p style="margin-bottom: 5px; margin-top: 15px;"><strong>Actuarial Exam Results (Part II & III)</strong></p>
             <ul style="margin-top: 0; padding-left: 20px;">
-              <li><a href="uploads/ProofOfAchievements/CMP%20Results%20Letter_Class%20Registrations_779123_407293.pdf" target="_blank" style="color: #D2BFA5;">📄 CMP (Control Cycle)</a></li>
-              <li><a href="uploads/ProofOfAchievements/ALM_Results%20Letter_Class%20Registrations_787287_489066.pdf" target="_blank" style="color: #D2BFA5;">📄 ALM (Asset Liability Management)</a></li>
-              <li><a href="uploads/ProofOfAchievements/LIRPD_Results%20Letter_Class%20Registrations_784254_464810.pdf" target="_blank" style="color: #D2BFA5;">📄 LIRPD (Life Insurance Product Dev)</a></li>
-              <li><a href="uploads/ProofOfAchievements/LIRV_Results%20Letter_Class%20Registrations_788446_489087.pdf" target="_blank" style="color: #D2BFA5;">📄 LIRV (Life Insurance Valuation)</a></li>
+              <li><a href="uploads/ProofOfAchievements/CMP%20Results%20Letter_Class%20Registrations_779123_407293.pdf" target="_blank" style="color: #3D342A;">📄 CMP (Control Cycle)</a></li>
+              <li><a href="uploads/ProofOfAchievements/ALM_Results%20Letter_Class%20Registrations_787287_489066.pdf" target="_blank" style="color: #3D342A;">📄 ALM (Asset Liability Management)</a></li>
+              <li><a href="uploads/ProofOfAchievements/LIRPD_Results%20Letter_Class%20Registrations_784254_464810.pdf" target="_blank" style="color: #3D342A;">📄 LIRPD (Life Insurance Product Dev)</a></li>
+              <li><a href="uploads/ProofOfAchievements/LIRV_Results%20Letter_Class%20Registrations_788446_489087.pdf" target="_blank" style="color: #3D342A;">📄 LIRV (Life Insurance Valuation)</a></li>
             </ul>
           </div>
         </details>
