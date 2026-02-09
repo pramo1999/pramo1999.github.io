@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "Pramo Samarasinghe, BSc, BAct, BComp(Hons), AIAA"
+title: "Pramo Samarasinghe"
 
 # Name pronunciation (optional)
 name_pronunciation: ''
@@ -196,13 +196,13 @@ awards:
     icon: hero/academic-cap
     summary: |
       Achieved a thesis grade of 92% for research on State-Based Dynamic Probabilistic Mortality Models.
-  - title: Associateship Eligibility
+  - title: Associateship
     url: https://www.actuaries.asn.au/
     date: '2025-11-01'
     awarder: Actuaries Institute Australia
     icon: hero/check-badge
     summary: |
-      Confirmed eligibility for Associateship (AIAA) after completing Foundation and Actuary programs.
+      Associateship (AIAA) after completing Foundation and Actuary programs.
 ---
 
 Pramo Samarasinghe is an Actuarial Analyst and Computer Scientist with over three years of experience at the Australian Government Actuary (Treasury). A recent First Class Honours graduate from ANU, he specializes in the intersection of actuarial science and machine learning, specifically using national-scale health data to improve mortality forecasting. Outside of his technical work, Pramo is a dedicated leader in the community, serving as the Director of Finance for UN Youth ACT and mentoring students through university programs.
