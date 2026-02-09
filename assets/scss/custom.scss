@@ -31,3 +31,41 @@
 .horizontal-scroll-section .row::-webkit-scrollbar-thumb:hover {
   background: #3D342A;
 }
+/* Horizontal documents scroll (cards) */
+.h-scroll-docs {
+  margin-top: 1rem;
+}
+.h-scroll-docs .h-scroll-title {
+  margin: 0 0 0.5rem 0;
+  color: #111827;
+  font-size: 1.05rem;
+}
+.h-scroll-docs .h-scroll-row ul {
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.h-scroll-docs .h-scroll-row ul li {
+  flex: 0 0 auto;
+  min-width: 240px;
+  background: #3D342A;
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #5C4F42;
+}
+.h-scroll-docs .h-scroll-row ul li a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.h-scroll-docs .h-scroll-row ul::-webkit-scrollbar {
+  height: 8px;
+}
+.h-scroll-docs .h-scroll-row ul::-webkit-scrollbar-thumb {
+  background: #C6A988;
+  border-radius: 4px;
+}

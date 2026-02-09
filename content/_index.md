@@ -71,34 +71,27 @@ sections:
           <h3 style="margin-bottom: 0.5rem; font-size: 1.25rem;">Professional Qualifications</h3>
           <p style="margin: 0; color: #4b5563;"><em>Actuaries Institute Australia</em></p>
           <ul style="list-style-type: disc; padding-left: 1.5rem; margin-top: 0.5rem;">
-            <li><strong>Associateship (AIAA):</strong> Eligible & Awaiting Ceremony</li>
             <li><strong>Fellowship Program:</strong> 2/3 exams completed (Life Insurance & Retirement Product Development & Valuation)</li>
             <li><strong>Actuary Program:</strong> 4/4 exams completed (Control Cycle, Data Science Principles, Asset Liability Matching)</li>
             <li><strong>Foundation Program:</strong> 6/6 exams completed (Statistics, Economics, Finance, Mathematics)</li>
           </ul>
         </div>
 
-        {{</* spoiler text="📂 Click to View Official Transcripts & Results" */>}}
-        
-        **University Transcripts**
+  {{< hscroll title="📂 Click to View Official Transcripts & Results" >}}
 
-        - [📄 ANU Official Transcript](/uploads/ProofOfAchievements/anu_transcript.pdf)
-        - [📄 Honours Completion Letter](/uploads/ProofOfAchievements/Completion%20Letter%20u7056548-honours.pdf)
-        - [📄 Bachelor of Actuarial Studies Completion Letter](/uploads/ProofOfAchievements/7056548%20-%20Bachelor%20of%20Actuarial%20Studies.pdf)
+  - [📄 ANU Official Transcript](/uploads/ProofOfAchievements/anu_transcript.pdf)
+  - [📄 Honours Completion Letter](/uploads/ProofOfAchievements/Completion%20Letter%20u7056548-honours.pdf)
+  - [📄 Bachelor of Actuarial Studies Completion Letter](/uploads/ProofOfAchievements/7056548%20-%20Bachelor%20of%20Actuarial%20Studies.pdf)
 
-        **Actuarial Exam Results (Core Principles)**
+  - [📄 Core Principles Results (CM, CS, CB)](/uploads/ProofOfAchievements/9576222--exam-result-letter--april-2019---core-principles--cm--cs-and-cb-.pdf)
+  - [📄 CS1 Exam Result](/uploads/ProofOfAchievements/CS1_9576222--exam-result-letter--april-2019---core-principles--cm--cs-and-cb-[59].pdf)
 
-        - [📄 Core Principles Results (CM, CS, CB)](/uploads/ProofOfAchievements/9576222--exam-result-letter--april-2019---core-principles--cm--cs-and-cb-.pdf)
-        - [📄 CS1 Exam Result](/uploads/ProofOfAchievements/CS1_9576222--exam-result-letter--april-2019---core-principles--cm--cs-and-cb-[59].pdf)
+  - [📄 CMP (Control Cycle)](/uploads/ProofOfAchievements/CMP%20Results%20Letter_Class%20Registrations_779123_407293.pdf)
+  - [📄 ALM (Asset Liability Management)](/uploads/ProofOfAchievements/ALM_Results%20Letter_Class%20Registrations_787287_489066.pdf)
+  - [📄 LIRPD (Life Insurance Product Dev)](/uploads/ProofOfAchievements/LIRPD_Results%20Letter_Class%20Registrations_784254_464810.pdf)
+  - [📄 LIRV (Life Insurance Valuation)](/uploads/ProofOfAchievements/LIRV_Results%20Letter_Class%20Registrations_788446_489087.pdf)
 
-        **Actuarial Exam Results (Part II & III)**
-
-        - [📄 CMP (Control Cycle)](/uploads/ProofOfAchievements/CMP%20Results%20Letter_Class%20Registrations_779123_407293.pdf)
-        - [📄 ALM (Asset Liability Management)](/uploads/ProofOfAchievements/ALM_Results%20Letter_Class%20Registrations_787287_489066.pdf)
-        - [📄 LIRPD (Life Insurance Product Dev)](/uploads/ProofOfAchievements/LIRPD_Results%20Letter_Class%20Registrations_784254_464810.pdf)
-        - [📄 LIRV (Life Insurance Valuation)](/uploads/ProofOfAchievements/LIRV_Results%20Letter_Class%20Registrations_788446_489087.pdf)
-
-        {{</* /spoiler */>}}
+  {{< /hscroll >}}
     design:
       columns: '1'
 
@@ -146,11 +139,11 @@ sections:
   - block: collection
     id: talks
     content:
-      title: Recent & Upcoming Talks
+      title: Upcoming Talks and Presentations
       filters:
         folders:
           - events
-          - events/example
+          - events/Future
     design:
       view: card
 
