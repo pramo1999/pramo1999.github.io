@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Pramo Samarasinghe
+title: "Pramo Samarasinghe, BSc, BAct, BComp(Hons), AIAA"
 
 # Name pronunciation (optional)
 name_pronunciation: ''
@@ -18,6 +18,9 @@ status:
 
 # Is this the primary user of the site?
 superuser: true
+
+# Academic and professional credentials (displayed in profile/title)
+credentials: "BSc, BActSt, BComp(Hons), AIAA"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
