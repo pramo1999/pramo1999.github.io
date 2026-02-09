@@ -15,10 +15,12 @@ authors:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: 'TBA'
+# Date (use a valid date string like '2026-02-10' or remove if unknown).
+# date: 'TBA'
 
-# Schedule page publish date (NOT publication's date).
-publishDate: 'TBA'
+# Schedule page publish date (NOT publication's date). Use a parseable date string
+# e.g. publishDate: '2026-02-10' or leave commented until the real date is known.
+# publishDate: 'TBA'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).

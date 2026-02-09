@@ -116,9 +116,9 @@ sections:
       text: ''
       count: 10
       filters:
-        tags:
-          - R
-          - Rblog
+        # Use folders to select blog content (posts with cover/image front matter).
+        folders:
+          - blog
         exclude_featured: false
     design:
       view: card
