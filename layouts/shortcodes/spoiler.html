@@ -1,9 +1,9 @@
 {{/*
   Local spoiler shortcode to render a collapsible <details> block.
-  Usage in content (within a pipe 'text' block or regular markdown):
-    {{</* spoiler text="📂 Click to View Official Transcripts & Results" */>}}
+  Usage in content (standard Hugo shortcode syntax):
+    {{< spoiler text="📂 Click to View Official Transcripts & Results" >}}
     - [Link text](/path/to/file)
-    {{</* /spoiler */>}}
+    {{< /spoiler >}}
 
   The shortcode markdownifies the inner content so Markdown links render as HTML
   and uses safeHTML to avoid Hugo escaping the rendered HTML.
