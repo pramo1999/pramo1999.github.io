@@ -79,28 +79,28 @@ sections:
         </div>
 
         <details style="background-color: #3D342A; padding: 1rem; border-radius: 0.5rem; border: 1px solid #5C4F42; color: #ffffff !important;">
-          <summary style="cursor: pointer; font-weight: bold; color: #ffffff !important;">📂 Click to View Official Transcripts & Results</summary>
+          <summary style="cursor: pointer; font-weight: bold; color: #ffffff !important;">📂 Click to View Official Transcripts &amp; Results</summary>
           <div style="margin-top: 1rem; color: #ffffff !important;">
             
             <p style="margin-bottom: 5px; color: #ffffff !important;"><strong>University Transcripts</strong></p>
             <ul style="margin-top: 0; padding-left: 20px; color: #ffffff !important;">
-              <li style="color: #ffffff !important;"><a href="uploads/ProofOfAchievements/anu_transcript.pdf" target="_blank" style="color: #ffffff !important; text-decoration: underline;">📄 ANU Official Transcript</a></li>
-              <li style="color: #ffffff !important;"><a href="uploads/ProofOfAchievements/Completion%20Letter%20u7056548-honours.pdf" target="_blank" style="color: #ffffff !important; text-decoration: underline;">📄 Honours Completion Letter</a></li>
-              <li style="color: #ffffff !important;"><a href="uploads/ProofOfAchievements/7056548%20-%20Bachelor%20of%20Actuarial%20Studies.pdf" target="_blank" style="color: #ffffff !important; text-decoration: underline;">📄 Bachelor of Actuarial Studies Completion Letter</a></li>
+              <li style="color: #ffffff !important;"><a href="/uploads/ProofOfAchievements/anu_transcript.pdf" target="_blank" style="color: #ffffff !important; text-decoration: underline;">📄 ANU Official Transcript</a></li>
+              <li style="color: #ffffff !important;"><a href="/uploads/ProofOfAchievements/Completion%20Letter%20u7056548-honours.pdf" target="_blank" style="color: #ffffff !important; text-decoration: underline;">📄 Honours Completion Letter</a></li>
+              <li style="color: #ffffff !important;"><a href="/uploads/ProofOfAchievements/7056548%20-%20Bachelor%20of%20Actuarial%20Studies.pdf" target="_blank" style="color: #ffffff !important; text-decoration: underline;">📄 Bachelor of Actuarial Studies Completion Letter</a></li>
             </ul>
             
             <p style="margin-bottom: 5px; margin-top: 15px; color: #ffffff !important;"><strong>Actuarial Exam Results (Core Principles)</strong></p>
             <ul style="margin-top: 0; padding-left: 20px; color: #ffffff !important;">
-              <li style="color: #ffffff !important;"><a href="uploads/ProofOfAchievements/9576222--exam-result-letter--april-2019---core-principles--cm--cs-and-cb-.pdf" target="_blank" style="color: #ffffff !important; text-decoration: underline;">📄 Core Principles Results (CM, CS, CB)</a></li>
-              <li style="color: #ffffff !important;"><a href="uploads/ProofOfAchievements/CS1_9576222--exam-result-letter--april-2019---core-principles--cm--cs-and-cb-[59].pdf" target="_blank" style="color: #ffffff !important; text-decoration: underline;">📄 CS1 Exam Result</a></li>
+              <li style="color: #ffffff !important;"><a href="/uploads/ProofOfAchievements/9576222--exam-result-letter--april-2019---core-principles--cm--cs-and-cb-.pdf" target="_blank" style="color: #ffffff !important; text-decoration: underline;">📄 Core Principles Results (CM, CS, CB)</a></li>
+              <li style="color: #ffffff !important;"><a href="/uploads/ProofOfAchievements/CS1_9576222--exam-result-letter--april-2019---core-principles--cm--cs-and-cb-[59].pdf" target="_blank" style="color: #ffffff !important; text-decoration: underline;">📄 CS1 Exam Result</a></li>
             </ul>
             
             <p style="margin-bottom: 5px; margin-top: 15px; color: #ffffff !important;"><strong>Actuarial Exam Results (Part II & III)</strong></p>
             <ul style="margin-top: 0; padding-left: 20px; color: #ffffff !important;">
-              <li style="color: #ffffff !important;"><a href="uploads/ProofOfAchievements/CMP%20Results%20Letter_Class%20Registrations_779123_407293.pdf" target="_blank" style="color: #ffffff !important; text-decoration: underline;">📄 CMP (Control Cycle)</a></li>
-              <li style="color: #ffffff !important;"><a href="uploads/ProofOfAchievements/ALM_Results%20Letter_Class%20Registrations_787287_489066.pdf" target="_blank" style="color: #ffffff !important; text-decoration: underline;">📄 ALM (Asset Liability Management)</a></li>
-              <li style="color: #ffffff !important;"><a href="uploads/ProofOfAchievements/LIRPD_Results%20Letter_Class%20Registrations_784254_464810.pdf" target="_blank" style="color: #ffffff !important; text-decoration: underline;">📄 LIRPD (Life Insurance Product Dev)</a></li>
-              <li style="color: #ffffff !important;"><a href="uploads/ProofOfAchievements/LIRV_Results%20Letter_Class%20Registrations_788446_489087.pdf" target="_blank" style="color: #ffffff !important; text-decoration: underline;">📄 LIRV (Life Insurance Valuation)</a></li>
+              <li style="color: #ffffff !important;"><a href="/uploads/ProofOfAchievements/CMP%20Results%20Letter_Class%20Registrations_779123_407293.pdf" target="_blank" style="color: #ffffff !important; text-decoration: underline;">📄 CMP (Control Cycle)</a></li>
+              <li style="color: #ffffff !important;"><a href="/uploads/ProofOfAchievements/ALM_Results%20Letter_Class%20Registrations_787287_489066.pdf" target="_blank" style="color: #ffffff !important; text-decoration: underline;">📄 ALM (Asset Liability Management)</a></li>
+              <li style="color: #ffffff !important;"><a href="/uploads/ProofOfAchievements/LIRPD_Results%20Letter_Class%20Registrations_784254_464810.pdf" target="_blank" style="color: #ffffff !important; text-decoration: underline;">📄 LIRPD (Life Insurance Product Dev)</a></li>
+              <li style="color: #ffffff !important;"><a href="/uploads/ProofOfAchievements/LIRV_Results%20Letter_Class%20Registrations_788446_489087.pdf" target="_blank" style="color: #ffffff !important; text-decoration: underline;">📄 LIRV (Life Insurance Valuation)</a></li>
             </ul>
           </div>
         </details>
