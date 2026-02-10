@@ -77,21 +77,6 @@ sections:
           </ul>
         </div>
 
-        {{</* hscroll title="📂 Click to View Official Transcripts & Results" */>}}
-
-        - [📄 ANU Official Transcript](/uploads/ProofOfAchievements/anu_transcript.pdf)
-        - [📄 Honours Completion Letter](/uploads/ProofOfAchievements/Completion%20Letter%20u7056548-honours.pdf)
-        - [📄 Bachelor of Actuarial Studies Completion Letter](/uploads/ProofOfAchievements/7056548%20-%20Bachelor%20of%20Actuarial%20Studies.pdf)
-
-        - [📄 Core Principles Results (CM, CS, CB)](/uploads/ProofOfAchievements/9576222--exam-result-letter--april-2019---core-principles--cm--cs-and-cb-.pdf)
-        - [📄 CS1 Exam Result](/uploads/ProofOfAchievements/CS1_9576222--exam-result-letter--april-2019---core-principles--cm--cs-and-cb-[59].pdf)
-
-        - [📄 CMP (Control Cycle)](/uploads/ProofOfAchievements/CMP%20Results%20Letter_Class%20Registrations_779123_407293.pdf)
-        - [📄 ALM (Asset Liability Management)](/uploads/ProofOfAchievements/ALM_Results%20Letter_Class%20Registrations_787287_489066.pdf)
-        - [📄 LIRPD (Life Insurance Product Dev)](/uploads/ProofOfAchievements/LIRPD_Results%20Letter_Class%20Registrations_784254_464810.pdf)
-        - [📄 LIRV (Life Insurance Valuation)](/uploads/ProofOfAchievements/LIRV_Results%20Letter_Class%20Registrations_788446_489087.pdf)
-
-        {{</* /hscroll */>}}
         
         <p style="margin-top:0.5rem;">
           <a href="/documents/" style="text-decoration:underline; color:inherit">See full list of documents</a>
