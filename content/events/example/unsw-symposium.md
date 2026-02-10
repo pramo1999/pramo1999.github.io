@@ -33,7 +33,7 @@ tags:
 featured: true
 
 image:
-  filename: content/events/photos/unsw.jpg
+  filename: unsw.jpg
   focal_point: Center
   preview_only: false
 

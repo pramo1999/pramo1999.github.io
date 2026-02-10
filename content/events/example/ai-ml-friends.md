@@ -32,7 +32,7 @@ tags:
 featured: false
 
 image:
-  filename: ./events/photos/1000065847.jpg
+  filename: 1000065847.jpg
   focal_point: Right
   preview_only: false
 ---

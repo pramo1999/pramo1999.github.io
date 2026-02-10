@@ -36,7 +36,7 @@ links:
 # Featured image (Add featured.jpg/png to the folder)
 image:
   caption: 'Mortality dynamics and state transitions'
-  filename: image.png
+  filename: featured.png
   focal_point: ""
   preview_only: false
 
