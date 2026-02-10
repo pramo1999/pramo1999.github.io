@@ -1,18 +1,18 @@
 {{/*
-  Horizontal scroll shortcode
+Horizontal scroll shortcode
 
-  Usage (custom list):
-    {{< hscroll title="📂 Click to View Official Transcripts & Results" >}}
-    - [📄 ANU Official Transcript](/uploads/ProofOfAchievements/anu_transcript.pdf)
-    - [📄 Honours Completion Letter](/uploads/ProofOfAchievements/Completion%20Letter%20u7056548-honours.pdf)
-    {{< /hscroll >}}
+Usage (custom list):
+  {{< hscroll title="📂 Click to View Official Transcripts & Results" >}}
+  - [📄 ANU Official Transcript](/uploads/ProofOfAchievements/anu_transcript.pdf)
+  - [📄 Honours Completion Letter](/uploads/ProofOfAchievements/Completion%20Letter%20u7056548-honours.pdf)
+  {{< /hscroll >}}
 
-  Usage (auto-enumerate folder):
-    {{< hscroll title="Docs" folder="/uploads/ProofOfAchievements/" >}}{{< /hscroll >}}
+Usage (auto-enumerate folder):
+  {{< hscroll title="Docs" folder="/uploads/ProofOfAchievements/" >}}{{< /hscroll >}}
 
-  Behavior:
-  - If inner markdown is provided, it converts each list item link into a preview card.
-  - If no inner content is provided, it enumerates files under the given `folder` (static files) and shows PDF previews.
+Behavior:
+- If inner markdown is provided, it converts each list item link into a preview card.
+- If no inner content is provided, it enumerates files under the given `folder` (static files) and shows PDF previews.
 */}}
 
 <div class="h-scroll-docs">
