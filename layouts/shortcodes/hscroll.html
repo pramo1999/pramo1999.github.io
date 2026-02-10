@@ -11,8 +11,6 @@ Usage (auto-enumerate folder):
   {{< hscroll title="Docs" folder="/uploads/ProofOfAchievements/" >}}{{< /hscroll >}}
 
 Behavior:
-- If inner markdown is provided, it converts each list item link into a preview card.
-- If no inner content is provided, it enumerates files under the given `folder` (static files) and shows PDF previews.
 */}}
 
 <div class="h-scroll-docs">
@@ -20,118 +18,66 @@ Behavior:
     <h4 class="h-scroll-title">{{ . | safeHTML }}</h4>
   {{ end }}
 
-  {{ $folder := .Get "folder" | default "/uploads/ProofOfAchievements/" }}
+      {{ $folder := .Get "folder" | default "/uploads/ProofOfAchievements/" }}
 
-  {{ if gt (len (plainify .Inner)) 0 }}
-    {{ $html := .Inner | markdownify }}
-    {{ $cards := replaceRE `(?s)<li>\s*<a href="([^"]+)"[^>]*>([^<]+)</a>\s*</li>` (printf "<div class=\"doc-card\">\n  <div class=\"doc-preview-wrap\">\n    <iframe src=\"$1\" class=\"doc-preview\" loading=\"lazy\" title=\"$2\"></iframe>\n  </div>\n  <p class=\"doc-caption\"><a href=\"$1\" target=\"_blank\" rel=\"noopener\">$2</a></p>\n</div>") $html }}
-    <div class="h-scroll-row-cards">{{ $cards | safeHTML }}</div>
-  {{ else }}
-    <div class="h-scroll-row-cards">
-      {{ range .Site.StaticFiles }}
-        {{ $rel := .RelPermalink }}
-        {{ if and (hasPrefix $rel $folder) (or (hasSuffix $rel ".pdf") (hasSuffix $rel ".PDF")) }}
-          <div class="doc-card">
-            <div class="doc-preview-wrap">
-              <iframe src="{{ $rel }}" class="doc-preview" loading="lazy" title="{{ .Name }}"></iframe>
-            </div>
-            <p class="doc-caption"><a href="{{ $rel }}" target="_blank" rel="noopener">{{ .Name }}</a></p>
+      {{ if gt (len (plainify .Inner)) 0 }}
+        {{ $html := .Inner | markdownify }}
+        
+        <div class="h-scroll-row-cards">{{ $cards | safeHTML }}</div>
+      {{ else }}
+        <div class="h-scroll-row-cards">
+          {{ range .Site.StaticFiles }}
+            {{ $rel := .RelPermalink }}
+            {{ if and (hasPrefix $rel $folder) (or (hasSuffix $rel ".pdf") (hasSuffix $rel ".PDF")) }}
+              <div class="doc-card">
+                <div class="doc-preview-wrap">
+                  <iframe src="{{ $rel }}" class="doc-preview" loading="lazy" title="{{ .Name }}"></iframe>
+                </div>
+                <p class="doc-caption"><a href="{{ $rel }}" target="_blank" rel="noopener">{{ .Name }}</a></p>
+              </div>
+            {{ end }}
+          {{/*
+          Horizontal scroll shortcode
+
+          Usage (custom list inside page):
+            {{< hscroll title="📂 Click to View Official Transcripts & Results" >}}
+            - [📄 ANU Official Transcript](/uploads/ProofOfAchievements/anu_transcript.pdf)
+            - [📄 Honours Completion Letter](/uploads/ProofOfAchievements/Completion%20Letter%20u7056548-honours.pdf)
+            {{< /hscroll >}}
+
+          Usage (auto-enumerate folder):
+            {{< hscroll title="Docs" folder="/uploads/ProofOfAchievements/" >}}{{< /hscroll >}}
+
+          Behavior:
+           - If inner markdown is provided, each list item link becomes a preview card.
+           - Otherwise, files under `folder` (default `/uploads/ProofOfAchievements/`) are enumerated and shown.
+          */}}
+
+          <div class="h-scroll-docs">
+            {{ with .Get "title" }}
+              <h4 class="h-scroll-title">{{ . | safeHTML }}</h4>
+            {{ end }}
+
+            {{ $folder := .Get "folder" | default "/uploads/ProofOfAchievements/" }}
+
+            {{ if gt (len (plainify .Inner)) 0 }}
+              {{ $html := .Inner | markdownify }}
+              {{ $cards := replaceRE `(?s)<li>\s*<a href="([^"]+)"[^>]*>([^<]+)</a>\s*</li>` (printf "<div class=\"doc-card\">\n  <div class=\"doc-preview-wrap\">\n    <iframe src=\"$1\" class=\"doc-preview\" loading=\"lazy\" title=\"$2\"></iframe>\n  </div>\n  <p class=\"doc-caption\"><a href=\"$1\" target=\"_blank\" rel=\"noopener\">$2</a></p>\n</div>") $html }}
+              <div class="h-scroll-row-cards">{{ $cards | safeHTML }}</div>
+            {{ else }}
+              <div class="h-scroll-row-cards">
+                {{ range .Site.StaticFiles }}
+                  {{ $rel := .RelPermalink }}
+                  {{ if and (hasPrefix $rel $folder) (or (hasSuffix $rel ".pdf") (hasSuffix $rel ".PDF")) }}
+                    <div class="doc-card">
+                      <div class="doc-preview-wrap">
+                        <iframe src="{{ $rel }}" class="doc-preview" loading="lazy" title="{{ .Name }}"></iframe>
+                      </div>
+                      <p class="doc-caption"><a href="{{ $rel }}" target="_blank" rel="noopener">{{ .Name }}</a></p>
+                    </div>
+                  {{ end }}
+                {{ end }}
+              </div>
+            {{ end }}
           </div>
-        {{ end }}
-      {{ end }}
-    </div>
-  {{ end }}
-</div>
-{{/*
-  Horizontal scroll shortcode
-  Usage (custom list):
-    {{</* hscroll title="📂 Click to View Official Transcripts & Results" */>}}
-    - [📄 ANU Official Transcript](/uploads/ProofOfAchievements/anu_transcript.pdf)
-    - [📄 Honours Completion Letter](/uploads/ProofOfAchievements/Completion%20Letter%20u7056548-honours.pdf)
-    {{</* /hscroll */>}}
 
-  Usage (auto-enumerate folder):
-    {{</* hscroll title="Docs" folder="/uploads/ProofOfAchievements/" */>}}{{</* /hscroll */>}}
-
-  Behavior:
-  - If inner markdown is provided, it converts each list item link into a preview card.
-  - If no inner content is provided, it enumerates files under the given `folder` (static files) and shows PDF previews.
-*/}}
-
-<div class="h-scroll-docs">
-  {{ with .Get "title" }}
-    <h4 class="h-scroll-title">{{ . | safeHTML }}</h4>
-  {{ end }}
-
-  {{ $folder := .Get "folder" | default "/uploads/ProofOfAchievements/" }}
-
-  {{ if gt (len (plainify .Inner)) 0 }}
-    {{ $html := .Inner | markdownify }}
-    {{ $cards := replaceRE `(?s)<li>\s*<a href="([^"]+)"[^>]*>([^<]+)</a>\s*</li>` (printf "<div class=\"doc-card\">\n  <div class=\"doc-preview-wrap\">\n    <iframe src=\"$1\" class=\"doc-preview\" loading=\"lazy\" title=\"$2\"></iframe>\n  </div>\n  <p class=\"doc-caption\"><a href=\"$1\" target=\"_blank\" rel=\"noopener\">$2</a></p>\n</div>") $html }}
-    <div class="h-scroll-row-cards">{{ $cards | safeHTML }}</div>
-  {{ else }}
-    <div class="h-scroll-row-cards">
-      {{ range .Site.StaticFiles }}
-        {{ $rel := .RelPermalink }}
-        {{ if and (hasPrefix $rel $folder) (or (hasSuffix $rel ".pdf") (hasSuffix $rel ".PDF")) }}
-          <div class="doc-card">
-            <div class="doc-preview-wrap">
-              <iframe src="{{ $rel }}" class="doc-preview" loading="lazy" title="{{ .Name }}"></iframe>
-            </div>
-            <p class="doc-caption"><a href="{{ $rel }}" target="_blank" rel="noopener">{{ .Name }}</a></p>
-          </div>
-        {{ end }}
-      {{ end }}
-    </div>
-  {{ end }}
-</div>
-{{/*
-  Horizontal scroll shortcode
-  Usage:
-    {{< hscroll title="📂 Click to View Official Transcripts & Results" >}}
-    - [📄 ANU Official Transcript](/uploads/ProofOfAchievements/anu_transcript.pdf)
-    - [📄 Honours Completion Letter](/uploads/ProofOfAchievements/Completion%20Letter%20u7056548-honours.pdf)
-    {{< /hscroll >}}
-
-  The inner markdown is markdownified and the resulting list is displayed as
-  horizontally scrollable cards.
-*/}}
-<div class="h-scroll-docs">
-  {{ with .Get "title" }}
-    <h4 class="h-scroll-title">{{ . | safeHTML }}</h4>
-  {{ end }}
-
-  {{/*
-    If the caller provided inner markdown, render it as before (convert list items to cards).
-    Otherwise, automatically enumerate static files under a folder (default: /uploads/ProofOfAchievements/) and render them.
-  */}}
-
-  {{ $folder := .Get "folder" | default "/uploads/ProofOfAchievements/" }}
-
-  {{ if gt (len (plainify .Inner)) 0 }}
-    {{ $html := .Inner | markdownify }}
-  {{/*
-      <div class="doc-card">
-        <div class="doc-preview-wrap">
-          <iframe src="$1" class="doc-preview" loading="lazy" title="$2"></iframe>
-        </div>
-        <p class="doc-caption"><a href="$1" target="_blank" rel="noopener">$2</a></p>
-      </div>
-    `) $html }}
-    <div class="h-scroll-row-cards">{{ $cards | safeHTML }}</div>
-  {{ else }}
-    <div class="h-scroll-row-cards">
-      {{ range .Site.StaticFiles }}
-        {{ $rel := .RelPermalink }}
-        {{ if and (hasPrefix $rel $folder) (or (hasSuffix $rel ".pdf") (hasSuffix $rel ".PDF")) }}
-          <div class="doc-card">
-            <div class="doc-preview-wrap">
-              <iframe src="{{ $rel }}" class="doc-preview" loading="lazy" title="{{ .Name }}"></iframe>
-            </div>
-            <p class="doc-caption"><a href="{{ $rel }}" target="_blank" rel="noopener">{{ .Name }}</a></p>
-          </div>
-        {{ end }}
-      {{ end }}
-    </div>
-  {{ end }}
-</div>
