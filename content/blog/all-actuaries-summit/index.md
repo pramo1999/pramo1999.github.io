@@ -8,6 +8,10 @@ tags:
   - Conferences
   - Actuarial
   - Presentations
+image:
+  caption: "All Actuaries Summit 2026"
+cover:
+  image: "allActuariesSummit.png"
 draft: false
 ---
 

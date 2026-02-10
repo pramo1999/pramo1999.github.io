@@ -20,7 +20,7 @@ status:
 superuser: true
 
 # Academic and professional credentials (displayed in profile/title)
-credentials: "BSc, BActSt, BComp(Hons), AIAA"
+credentials: BSc, BActSt, BComp(Hons), AIAA
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
