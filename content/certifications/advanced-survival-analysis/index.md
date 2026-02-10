@@ -5,8 +5,6 @@ issuer: "Professional Short Course"
 summary: "Advanced techniques in survival models, competing risks, and time-to-event analysis for actuarial use."
 tags:
   - Survival Analysis
-image:
-  filename: featured.svg
 draft: false
 ---
 

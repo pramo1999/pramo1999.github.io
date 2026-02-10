@@ -6,8 +6,6 @@ summary: "A practical certificate covering mortality models, cohort effects, and
 tags:
   - Actuarial
   - Mortality
-image:
-  filename: featured.svg
 draft: false
 ---
 

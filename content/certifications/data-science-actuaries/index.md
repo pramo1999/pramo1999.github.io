@@ -5,8 +5,6 @@ issuer: "Coursera / University Partner"
 summary: "Core data science skills tailored for actuarial workflows: data wrangling, visualization, and practical ML applications."
 tags:
   - Data Science
-image:
-  filename: featured.svg
 draft: false
 ---
 
