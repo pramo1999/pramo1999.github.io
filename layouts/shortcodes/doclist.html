@@ -5,11 +5,21 @@
 */}}
 <ul class="doclist">
   {{ $folder := .Get "folder" | default "/uploads/ProofOfAchievements/" }}
-  {{ $site := $.Site }}
-  {{ range $site.StaticFiles }}
-    {{ $rel := .RelPermalink }}
-    {{ if and (hasPrefix $rel $folder) (or (hasSuffix $rel ".pdf") (hasSuffix $rel ".PDF")) }}
-      <li><a href="{{ $rel }}" target="_blank" rel="noopener">{{ .Name }}</a></li>
+
+  {{/* Prefer an explicit data-driven list (data/proof_of_achievements.yml) when available. */}}
+  {{ $data := site.Data.proof_of_achievements }}
+  {{ if $data }}
+    {{ range $data.files }}
+      <li><a href="{{ .path }}" target="_blank" rel="noopener">{{ .name }}</a></li>
+    {{ end }}
+  {{ else }}
+    {{/* Fallback: try to enumerate StaticFiles if supported in this Hugo environment */}}
+    {{ $site := $.Site }}
+    {{ range $site.StaticFiles }}
+      {{ $rel := .RelPermalink }}
+      {{ if and (hasPrefix $rel $folder) (or (hasSuffix $rel ".pdf") (hasSuffix $rel ".PDF")) }}
+        <li><a href="{{ $rel }}" target="_blank" rel="noopener">{{ .Name }}</a></li>
+      {{ end }}
     {{ end }}
   {{ end }}
 </ul>
