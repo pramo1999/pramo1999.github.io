@@ -1,0 +1,14 @@
+{{/*
+  doclist shortcode
+  Usage: {{< doclist folder="/uploads/ProofOfAchievements/" >}}
+  Renders an unordered list of static files (PDFs) under the supplied folder.
+*/}}
+<ul class="doclist">
+  {{ $folder := .Get "folder" | default "/uploads/ProofOfAchievements/" }}
+  {{ range .Site.StaticFiles }}
+    {{ $rel := .RelPermalink }}
+    {{ if and (hasPrefix $rel $folder) (or (hasSuffix $rel ".pdf") (hasSuffix $rel ".PDF")) }}
+      <li><a href="{{ $rel }}" target="_blank" rel="noopener">{{ .Name }}</a></li>
+    {{ end }}
+  {{ end }}
+</ul>
