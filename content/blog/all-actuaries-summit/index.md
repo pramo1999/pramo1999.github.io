@@ -9,9 +9,10 @@ tags:
   - Actuarial
   - Presentations
 image:
-  caption: "All Actuaries Summit 2026"
-cover:
-  image: "allActuariesSummit.png"
+  filename: featured.png
+# image:
+#   caption: "All Actuaries Summit 2026"
+#   image: "allActuariesSummit.png"
 draft: false
 ---
 

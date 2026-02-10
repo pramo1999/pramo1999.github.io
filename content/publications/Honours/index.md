@@ -35,21 +35,21 @@ hugoblox:
 
 links:
   - type: pdf
-    url: http://arxiv.org/pdf/1512.04133v1
-  - type: code
-    url: https://github.com/HugoBlox/hugo-blox-builder
-  - type: dataset
-    url: ""
+    url: /publications/Honours/thesis.pdf
+  # - type: code
+  #   url: https://github.com/HugoBlox/hugo-blox-builder
+  # - type: dataset
+  #   url: ""
   - type: poster
-    url: ""
-  - type: project
-    url: ""
-  - type: slides
-    url: https://www.slideshare.net/
-  - type: source
-    url: ""
-  - type: video
-    url: ""
+    url: /publications/Honours/poster.pdf
+  # - type: project
+  #   url: ""
+  # - type: slides
+  #   url: https://www.slideshare.net/
+  # - type: source
+  #   url: ""
+  # - type: video
+  #   url: ""
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
