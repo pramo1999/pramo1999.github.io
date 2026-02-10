@@ -29,10 +29,10 @@ tags:
   - Health Data
   - Probabilistic Modelling
 
-featured: false
+featured: true
 
 image:
   filename: 1000065847.jpg
   focal_point: Right
-  preview_only: false
+  preview_only: true
 ---
