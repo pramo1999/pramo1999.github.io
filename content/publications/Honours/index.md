@@ -1,85 +1,61 @@
 ---
-title: "An example journal article"
+title: "Rethinking Mortality: A State-Based Dynamic Probabilistic Modelling Approach Using National-Scale Health Data"
 authors:
-- admin
-- Robert Ford
+- "Pramo Samarasinghe"
 author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
+- "Honours Thesis"
+date: "2025-10-30T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2025-10-30T00:00:00Z"
 
-# Publication type.
-# Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
-publication_types: ["article-journal"]
+# Publication type (Thesis)
+publication_types: ["thesis"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
-publication_short: ""
+publication: "*The Australian National University*"
+publication_short: "ANU Honours Thesis"
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: >
+  Australia's retirement income system is shifting from defined benefit to defined contribution schemes, placing longevity risk on individuals. This thesis develops a health-informed framework for mortality modelling by incorporating health-related variables from the Personal Level Integrated Data Asset (PLIDA). Using machine learning approaches like K-means clustering, survival trees, and a non-standard Markov-chain model, the research captures mortality dynamics and transitions between health cohorts. The results demonstrate that health-informed models provide more accurate and equitable survival estimates than traditional age-sex models like the Australian Life Tables (ALT).
 
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: A health-informed framework using PLIDA data and Markov-chain modelling to improve mortality prediction accuracy for Australian retirees.
 
 tags:
-- Source Themes
-featured: false
-
-hugoblox:
-  ids:
-    arxiv: 1512.04133v1
+- Mortality Modelling
+- Retirement Planning
+- Actuarial Science
+- Health Data
+- Markov Chains
+featured: true
 
 links:
   - type: pdf
     url: /publications/Honours/thesis.pdf
-  # - type: code
-  #   url: https://github.com/HugoBlox/hugo-blox-builder
-  # - type: dataset
-  #   url: ""
-  - type: poster
-    url: /publications/Honours/poster.pdf
-  # - type: project
-  #   url: ""
-  # - type: slides
-  #   url: https://www.slideshare.net/
-  # - type: source
-  #   url: ""
-  # - type: video
-  #   url: ""
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# Featured image (Add featured.jpg/png to the folder)
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: 'Mortality dynamics and state transitions'
+  filename: featured.svg
   focal_point: ""
   preview_only: false
 
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
 projects: []
-
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
 slides: ""
 ---
 
-> [!NOTE]
-> Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+## Overview
 
-> [!NOTE]
-> Create your slides in Markdown - click the *Slides* button to check out the example.
+[cite_start]This thesis argues that disease-centred mortality models—incorporating health conditions, medical procedures, and medication histories—offer significantly enhanced predictive accuracy for retiree mortality compared to conventional models relying solely on age and gender[cite: 102].
 
-Add the publication's **full text** or **supplementary notes** here. The full thesis PDF is embedded below for convenient reading. Use the download link if your browser does not render PDFs inline.
+### Key Findings
+* [cite_start]**Improved Accuracy**: The proposed models outperformed the Australian Life Tables (ALT) benchmark in both individual-level predictions and cohort-level forecasts[cite: 667].
+* [cite_start]**Financial Impact**: For a cohort of 100,000 retirees, the proportion expected to outlive their planning horizon falls from 9.9% (ALT) to 6.7% with this model[cite: 73].
+* [cite_start]**National Policy**: Implementing these models could decrease Age Pension expenditure by approximately $83.2 million per year by improving retirement drawdown strategies[cite: 74].
+
+## Full Thesis
+
+The full thesis PDF is embedded below for convenient reading.
 
 <div style="margin-top:1rem;">
   <p><strong>Full thesis (PDF):</strong> <a href="/publications/Honours/thesis.pdf" target="_blank" rel="noopener">Download the thesis (PDF)</a></p>
@@ -87,6 +63,4 @@ Add the publication's **full text** or **supplementary notes** here. The full th
   <iframe src="/publications/Honours/thesis.pdf" title="Honours thesis PDF" loading="lazy" style="width:100%;height:900px;border:1px solid rgba(0,0,0,0.08);">
     Your browser does not support iframes — please use the link above to download the PDF.
   </iframe>
-
-  <p style="margin-top:.75rem;color:#6b7280;font-size:.95rem;">Supplementary materials (poster): <a href="/publications/Honours/poster.pdf" target="_blank" rel="noopener">Download poster (PDF)</a></p>
 </div>
