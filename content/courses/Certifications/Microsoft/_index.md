@@ -16,7 +16,7 @@ tags:
 
 This page details Microsoft Courses and Certifications I have completed, along with additional details on the completed course. . Click any item to read the syllabus, topics covered, and specialties.
 
-{{< doclist folder="/certifications/" >}}
+{{< doclist folder="../certifications/" >}}
 
 <!-- {{< cards >}}
   {{< card url="/#rblog" title="R-Blog Projects" icon="code-bracket" subtitle="See my code in action" >}}
