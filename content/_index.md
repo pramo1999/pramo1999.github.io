@@ -142,8 +142,17 @@ sections:
       title: Upcoming Talks and Presentations
       filters:
         folders:
-          - events
           - events/Future
+    design:
+      view: card
+
+  - block: collection
+    id: talks
+    content:
+      title: Recent Talks and Presentations
+      filters:
+        folders:
+          - events
     design:
       view: card
 
