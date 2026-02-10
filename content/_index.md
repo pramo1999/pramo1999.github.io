@@ -156,6 +156,21 @@ sections:
     design:
       view: card
 
+  - block: collection
+    id: certifications
+    content:
+      title: Certifications Completed
+      subtitle: 'Selected certificates and professional courses'
+      text: ''
+      count: 6
+      filters:
+        folders:
+          - certifications
+        exclude_featured: false
+    design:
+      view: card
+      columns: 3
+
   # - block: collection
   #   id: news
   #   content:
