@@ -23,7 +23,7 @@ cascade:
 
 {{< cards >}}
   {{< card url="university-courses" title="🎓 University Courses" icon="academic-cap" subtitle="View detailed transcripts and specific course notes" >}}
-  {{< card url="hugo-blox" title="🚀 Hugo Blox Guide" icon="code-bracket" subtitle="My technical documentation and tutorials" >}}
+  {{< card url="Microsoft Courses" title="🎓 Microsoft Courses" icon="academic-cap" subtitle="View course details and content" >}}
 {{< /cards >}}
 
 <br>
