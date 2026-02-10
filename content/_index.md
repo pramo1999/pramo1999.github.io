@@ -102,7 +102,7 @@ sections:
       title: R-Blog & Actuarial Projects
       subtitle: 'Scroll to see more →'
       text: ''
-      count: 10
+      count: 3
       filters:
         # Use folders to select blog content (posts with cover/image front matter).
         folders:
