@@ -60,7 +60,4 @@ The full thesis PDF is embedded below for convenient reading.
 <div style="margin-top:1rem;">
   <p><strong>Full thesis (PDF):</strong> <a href="/publications/Honours/thesis.pdf" target="_blank" rel="noopener">Download the thesis (PDF)</a></p>
 
-  <iframe src="/publications/Honours/thesis.pdf" title="Honours thesis PDF" loading="lazy" style="width:100%;height:900px;border:1px solid rgba(0,0,0,0.08);">
-    Your browser does not support iframes — please use the link above to download the PDF.
-  </iframe>
 </div>
