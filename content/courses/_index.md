@@ -83,3 +83,13 @@ Below is a snapshot of my **High Distinction (HD)** results from the Australian 
   </div>
 
 </div>
+
+## 🏅 Certifications
+
+Below are selected professional certificates and short courses. Click any card to view the full details and syllabus.
+
+{{< cards >}}
+  {{< card url="/certifications/actuarial-mortality-modelling/" title="Actuarial Mortality Modelling" icon="document-text" subtitle="ANU short course" >}}
+  {{< card url="/certifications/data-science-actuaries/" title="Data Science for Actuaries" icon="chart-bar" subtitle="Practical data skills" >}}
+  {{< card url="/certifications/advanced-survival-analysis/" title="Advanced Survival Analysis" icon="clock" subtitle="Time-to-event methods" >}}
+{{< /cards >}}
