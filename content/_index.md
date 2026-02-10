@@ -99,8 +99,10 @@ sections:
     content:
       title: 'Transcripts and documentation'
       subtitle: 'Scroll to see more →'
-      text: |
-        {{</* hscroll title="📂 Click to View Official Transcripts & Results" folder="/uploads/ProofOfAchievements/" */>}}{{</* /hscroll */>}}
+      text: 
+        📂 Click to View Official Transcripts & Results
+      folders:
+        - /uploads/ProofOfAchievements/
     design:
       columns: 1
 
