@@ -95,6 +95,23 @@ sections:
     design:
       columns: '1'
 
+  - block: Transcripts and documentaiton
+    id: doc
+    content:
+      title: Transcripts and documentaiton
+      subtitle: 'Scroll to see more →'
+      text: ''
+      count: 10
+      filters:
+        # Use folders to select blog content (posts with cover/image front matter).
+        folders:
+          - /uploads/ProofOfAchievements/
+        exclude_featured: false
+    design:
+      view: card
+      columns: 2
+      css_class: "horizontal-scroll-section"
+
   # --- NEW: Horizontal Scroll R-Blog Section ---
   - block: collection
     id: blog
