@@ -79,4 +79,14 @@ slides: ""
 > [!NOTE]
 > Create your slides in Markdown - click the *Slides* button to check out the example.
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+Add the publication's **full text** or **supplementary notes** here. The full thesis PDF is embedded below for convenient reading. Use the download link if your browser does not render PDFs inline.
+
+<div style="margin-top:1rem;">
+  <p><strong>Full thesis (PDF):</strong> <a href="/publications/Honours/thesis.pdf" target="_blank" rel="noopener">Download the thesis (PDF)</a></p>
+
+  <iframe src="/publications/Honours/thesis.pdf" title="Honours thesis PDF" loading="lazy" style="width:100%;height:900px;border:1px solid rgba(0,0,0,0.08);">
+    Your browser does not support iframes — please use the link above to download the PDF.
+  </iframe>
+
+  <p style="margin-top:.75rem;color:#6b7280;font-size:.95rem;">Supplementary materials (poster): <a href="/publications/Honours/poster.pdf" target="_blank" rel="noopener">Download poster (PDF)</a></p>
+</div>
