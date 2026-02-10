@@ -92,19 +92,23 @@ sections:
         - [📄 LIRV (Life Insurance Valuation)](/uploads/ProofOfAchievements/LIRV_Results%20Letter_Class%20Registrations_788446_489087.pdf)
 
         {{</* /hscroll */>}}
+        
+        <p style="margin-top:0.5rem;">
+          <a href="/documents/" style="text-decoration:underline; color:inherit">See full list of documents</a>
+        </p>
     design:
       columns: '1'
 
-  - block: markdown
-    content:
-      title: 'Transcripts and documentation'
-      subtitle: 'Scroll to see more →'
-      text: 
-        📂 Click to View Official Transcripts & Results
-      folders:
-        - /uploads/ProofOfAchievements/
-    design:
-      columns: 1
+  # - block: markdown
+  #   content:
+  #     title: 'Transcripts and documentation'
+  #     subtitle: 'Scroll to see more →'
+  #     text: 
+  #       📂 Click to View Official Transcripts & Results
+  #     folders:
+  #       - /uploads/ProofOfAchievements/
+  #   design:
+  #     columns: 1
 
   # --- NEW: Horizontal Scroll R-Blog Section ---
   - block: collection
