@@ -169,7 +169,7 @@ sections:
           - certifications
         exclude_featured: false
     design:
-      view: card
+      view: article-grid
       columns: 3
 
   # - block: collection
