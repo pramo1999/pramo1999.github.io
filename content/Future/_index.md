@@ -1,7 +1,7 @@
 ---
 title: Upcoming Talks and Presentations
 cms_exclude: true
-url: upcomingtalk
+# url: upcomingtalk
 
 # View
 view: card
