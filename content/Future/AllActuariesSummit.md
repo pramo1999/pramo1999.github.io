@@ -2,14 +2,14 @@
 title: "Towards Fairer Retirement Outcomes: Health-Related Mortality Modelling"
 
 event: All Actuaries Summit 2026 
-event_url: https://conference.unsw.edu.au/en/2025-australasian-actuarial-education-and-research-symposium
+event_url: https://www.actuaries.asn.au/all-actuaries-summit-2026
 
-location: UNSW Sydney
+location: Melbourne Convention and Exhibition Centre
 address:
-  street: High St
-  city: Kensington
-  region: NSW
-  postcode: '2052'
+  street: 1 Convention Centre Place
+  city: South Wharf
+  region: VIC
+  postcode: '3006'
   country: Australia
 
 summary: A presentation on leveraging national-scale health data (PLIDA) to improve actuarial forecasting.
@@ -40,5 +40,5 @@ image:
 links:
   - type: url
     name: Conference Website
-    url: https://conference.unsw.edu.au/en/2025-australasian-actuarial-education-and-research-symposium
+    url: https://www.actuaries.asn.au/all-actuaries-summit-2026
 ---
