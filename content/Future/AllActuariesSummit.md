@@ -33,9 +33,7 @@ tags:
 featured: true
 
 image:
-  filename: content/events/photos/unsw.jpg
-  focal_point: Center
-  preview_only: false
+  filename: featured.png
 
 links:
   - type: url

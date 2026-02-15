@@ -33,10 +33,9 @@ tags:
 
 featured: true
 
+
 image:
-  filename: content/events/photos/allan-barton-forum.jpg
-  focal_point: Center
-  preview_only: false
+  filename: Pathway.png
 ---
 
 <!-- ### Giving Back to the ANU Community
