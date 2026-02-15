@@ -30,7 +30,7 @@ tags:
   - Mortality Modelling
   - PLIDA
 
-featured: true
+featured: false
 
 image:
   filename: featured.png

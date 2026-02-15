@@ -31,7 +31,7 @@ tags:
   - Actuarial Education
   - Career Mentoring
 
-featured: true
+featured: false
 
 
 image:
