@@ -31,7 +31,7 @@ tags:
   - Actuarial Education
   - Career Mentoring
 
-featured: false
+featured: true
 
 image:
   filename: content/events/photos/allan-barton-forum.jpg
