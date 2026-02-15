@@ -39,7 +39,7 @@ image:
   preview_only: false
 ---
 
-### Giving Back to the ANU Community
+<!-- ### Giving Back to the ANU Community
 
 It is a privilege to be invited to participate in the **ASOC "Understanding Exemptions + First Year Panel"** for the second time. As someone who recently completed a 6.5-year journey at ANU, including founding the Sri Lankan Society and working at the Australian Government Actuary (AGA) while studying, I know how daunting those first few semesters can feel.
 
@@ -49,4 +49,4 @@ It is a privilege to be invited to participate in the **ASOC "Understanding Exem
 * **Time**: 2:00 pm – 4:00 pm (Panel starts at 3:00 pm)
 * **Location**: Allan Barton Forum, CBE, ANU
 
-I look forward to meeting the new cohort and sharing the quote that guided my own journey: *"Remember how far you've come, not just how far you have to go"*.
+I look forward to meeting the new cohort and sharing the quote that guided my own journey: *"Remember how far you've come, not just how far you have to go"*. -->
