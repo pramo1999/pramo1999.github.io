@@ -142,7 +142,7 @@ sections:
       title: Upcoming Talks and Presentations
       filters:
         folders:
-          - Future
+          - future
     design:
       view: card
 
