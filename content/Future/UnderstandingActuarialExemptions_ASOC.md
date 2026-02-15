@@ -31,11 +31,13 @@ tags:
   - Actuarial Education
   - Career Mentoring
 
-featured: false
+featured: false 
 
 
 image:
-  filename: Pathway.png
+  filename: pathway.png
+
+
 ---
 
 <!-- ### Giving Back to the ANU Community
