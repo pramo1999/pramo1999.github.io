@@ -142,7 +142,7 @@ sections:
       title: Upcoming Talks and Presentations
       filters:
         folders:
-          - events/Future
+          - Future
     design:
       view: card
 
@@ -154,7 +154,8 @@ sections:
         folders:
           - events
     design:
-      view: card
+      view: article-grid
+      columns: 3
 
   - block: collection
     id: certifications
