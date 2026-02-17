@@ -35,7 +35,7 @@ featured: false
 
 
 image:
-  filename: pathway.png
+  filename: asoc-panel.png
   focal_point: Smart
   preview_only: false
 
