@@ -33,7 +33,7 @@ tags:
 featured: false
 
 image:
-  filename: all-actuaries-summit.png
+  filename: featured.png
   focal_point: Smart
   preview_only: false
 
