@@ -154,7 +154,7 @@ sections:
         folders:
           - events
     design:
-      view: article-grid
+      view: card
       columns: 3
 
   - block: collection
