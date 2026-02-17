@@ -36,6 +36,8 @@ featured: false
 
 image:
   filename: pathway.png
+  focal_point: Smart
+  preview_only: false
 
 
 ---
