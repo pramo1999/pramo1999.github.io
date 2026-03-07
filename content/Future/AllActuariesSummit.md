@@ -13,7 +13,13 @@ address:
   country: Australia
 
 summary: A presentation on leveraging national-scale health data (PLIDA) to improve actuarial forecasting.
-abstract: 'The presentation will take place from 2:30 pm to 3:15 pm AEST on Wednesday 27 May 2026. This presentation explores the intersection of actuarial science and large-scale health data. We introduce a State-Based Dynamic Probabilistic Model designed to rethink traditional mortality predictions. By leveraging the Personal-Level Integrated Data Asset (PLIDA), this research aims to improve the accuracy of annuity forecasting and ensure better planning horizons for Australian retirees, ultimately leading to fairer retirement outcomes.'
+abstract: 'The presentation will take place from 2:30 pm to 3:15 pm AEST on Wednesday 27 May 2026. 
+            
+        This presentation explores the intersection of actuarial science and large-scale health data. We introduce a State-Based Dynamic Probabilistic Model designed to rethink traditional mortality predictions. By leveraging the Personal-Level Integrated Data Asset (PLIDA), this research aims to improve the accuracy of annuity forecasting and ensure better planning horizons for Australian retirees, ultimately leading to fairer retirement outcomes.
+        
+        Further details can be found on: https://www.actuaries.asn.au/summit2026-program#:~:text=Towards%20Fairer%20Retirement%20Outcomes:%20Health%2DRelated%20Mortality%20Modelling
+        '
+
 
 # Date: Set to 2025 (Update specific Day/Month if known)
 date: "2026-05-27T14:30:00+10:00" 
