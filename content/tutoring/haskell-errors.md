@@ -4,6 +4,8 @@ date: "2020-05-04 11:00:00 +1100"
 layout: post
 output: pdf_document
 categories: worksheets
+image:
+  filename: haskell_logo.png
 ---
 
 ## Errors 101
