@@ -18,7 +18,8 @@ sections:
       title: Latest Insights
       subtitle: "Exploring the intersection of Actuarial Science, Data, and Technology."
       text: ""
-          order: desc
+          sort_by: 'Date'
+          sort_ascending: false
       filters:
         folders:
               - blog
