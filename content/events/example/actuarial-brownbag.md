@@ -1,5 +1,5 @@
 ---
-title: "Improving Annuity Forecasting with Health-Based Mortality Trends"
+title: ANU Actuarial School Brownbag Seminar- Talk
 
 event: ANU Actuarial School Brownbag Seminar
 event_url: https://cbe.anu.edu.au/

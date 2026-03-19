@@ -1,5 +1,5 @@
 ---
-title: "Rethinking Mortality: A State-Based Dynamic Probabilistic Model"
+title: AI, ML and Friends Seminar - Talk
 
 event: AI, ML and Friends Seminar
 event_url: https://cecs.anu.edu.au/events
