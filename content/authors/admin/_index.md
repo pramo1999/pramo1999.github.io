@@ -104,38 +104,40 @@ education:
       **Coursework:** Algorithms, Number Theory & Cryptography, Structured Programming, Discrete Mathematics.
 
 work:
+  - position: Actuarial Consultant
+    company_name: Department of Veterans Affairs
+    company_url: 'https://www.dva.gov.au/'
+    icon: 'briefcase'
+    date_start: 2026-02-01
+    date_end: ''
+    summary: |
+      My primary focus involves the end-to-end migration of complex legacy actuarial models from SAS to Python. Throughout this process, I am responsible for reverse-engineering and optimizing the existing code to improve efficiency.
   - position: Actuarial Intern
-    company_name: Australian Government Actuary (Treasury)
+    company_name: Australian Government Actuary, Treasury
     company_url: 'https://treasury.gov.au/'
     icon: 'building-library'
     date_start: 2022-09-01
     date_end: 2025-12-31
-    summary: |2-
-      Debugged and developed actuarial models using SAS and R. Drafted technical reports and communicated complex findings to stakeholders.
-  - position: Director of Finance
-    company_name: UN Youth ACT
-    company_url: 'https://unyouth.org.au/'
-    icon: 'currency-dollar'
-    date_start: 2020-12-01
-    date_end: '' # Present
     summary: |
-      Oversaw budgets, secured sponsorship, maintained bank accounts, and developed audited financial reports for the division.
-  - position: Research Assistant
+      I have worked on numerous projects which include helping debug existing actuarial models and helping develop new ones. I have developed numerous skills over the years, which include documentation, effective communication, time management and data analysis skills. I have worked both in groups and individually. I have used excel, R, and SAS for data analysis and modelling.
+  - position: Research Assistant & Intern
     company_name: Australian National University
     company_url: 'https://www.anu.edu.au/'
     icon: 'beaker'
     date_start: 2020-02-01
     date_end: 2024-06-01
     summary: |
-      Researched translating timing aspects of process algebra to mCRL2. Developed algorithms for translation and verification.
-  - position: Research Support Officer
-    company_name: Orima Research
-    company_url: 'https://orima.com.au/'
-    icon: 'chart-pie'
-    date_start: 2021-02-01
-    date_end: 2021-12-01
+      **Research topic:** Translating the timing aspects of process algebra to mCRL2.
+      
+      Learnt concepts of times process algebra and developed an algorithm for the translation of timed aspects in process algebra. Currently testing and proving the algorithm and its accuracy. Continued as a research course after initial internship (Dec 2020 – Feb 2020).
+  - position: Academic Tutor
+    company_name: Australian National University
+    company_url: 'https://comp.anu.edu.au/'
+    icon: 'book-open'
+    date_start: 2020-07-01
+    date_end: 2024-06-01
     summary: |
-      Conducted data analytics using Excel and SPSS. Assisted with coding open-ended comments and checking data accuracy in reports.
+      Throughout my experience as a tutor, I developed leadership and communication skills. I have contributed by making numerous assignments, exams, and content. I have been proactive and helped with numerous backend tasks such as exam invigilation, oral exams, marking. Courses taught; COMP1100, COMP1110, COMP1600.
 
 # Skills
 skills:
