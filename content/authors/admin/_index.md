@@ -130,6 +130,7 @@ work:
       **Research topic:** Translating the timing aspects of process algebra to mCRL2.
       
       Learnt concepts of times process algebra and developed an algorithm for the translation of timed aspects in process algebra. Currently testing and proving the algorithm and its accuracy. Continued as a research course after initial internship (Dec 2020 – Feb 2020).
+      
   - position: Academic Tutor
     company_name: Australian National University
     company_url: 'https://comp.anu.edu.au/'
