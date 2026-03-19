@@ -37,9 +37,32 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        My Honours thesis, **"Rethinking Mortality Using a State-Based Dynamic Probabilistic Model,"** focused on improving traditional mortality predictions to support better planning horizons for Australian retirees. 
+        My Honours research, “Rethinking Mortality Using a State-Based Dynamic Probabilistic Model,” tackles one of the most complex financial and social challenges in Australia: predicting how long a population will live when health and lifestyle are constantly shifting. 
         
-        This research leveraged the **Personal-Level Integrated Data Asset (PLIDA)** to incorporate health-based impacts on mortality and the dynamic nature of individual health status into actuarial forecasting.
+        #### The Innovation: Breaking the "Static" Mold
+
+        Traditional mortality models are "static"—they rely on broad population averages that fail to account for an individual’s evolving health. This leads to massive systemic risks that affect every Australian. My research is novel because it moves away from these averages, creating a dynamic, state-based model that adapts as an individual’s health status changes.
+
+        The Impact: Retirement Products & Government Subsidies
+
+        The precision of this model has direct consequences for the Australian economy:
+
+        Retirement Product Pricing: For the private sector, accurate mortality forecasting is the "engine" behind Annuities and Pension products. If models are inaccurate, these products become either too expensive for the average person or financially unstable for the provider. My research enables more equitable pricing, ensuring retirees get the most out of their hard-earned savings.
+
+        Sustainability of Subsidies: On a federal level, the Age Pension and various Retirement Subsidies represent one of the government’s largest expenditures. Even a slight miscalculation in mortality trends can lead to billions of dollars in "hidden" liabilities. In coorporating health variables to mortality predictions provides a more robust framework for the government to manage these subsidies, ensuring the system remains solvent for future generations.
+
+        The Social Impact: Longevity vs. Quality of Life
+
+        At its heart, this is about dignity in aging. The social impact of this research is profound: it helps solve the "fear of outliving your money." By providing a clearer planning horizon, we can reduce the anxiety of retirees, allowing them to spend their savings with confidence rather than living in unnecessary frugality due to statistical uncertainty.
+
+        The Prestige: Navigating the PLIDA Gatekeeper
+
+        What makes this research truly unique is the data behind it. I was granted highly restricted access to the Personal-Level Integrated Data Asset (PLIDA).
+
+        Extreme Difficulty of Access: PLIDA is a massive, national-scale dataset that links health, census, and government records. Gaining access requires rigorous ethical clearance and high-level technical trust.
+
+        A "First-of-its-Kind" View: This is Australias first attempt to incorporate health information for mortality on a national scale,. With this research I was able to observe real-world health transitions that have never been factored into traditional actuarial models.
+
     design:
       columns: '1'
 
