@@ -104,6 +104,7 @@ sections:
       subtitle: 'Scroll to see more →'
       text: ''
       count: 3
+      order: desc
       filters:
         # Use folders to select blog content (posts with cover/image front matter).
         folders:

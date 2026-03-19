@@ -6,7 +6,7 @@ type: landing
 
 cascade:
   - target:
-      path: '{/post/*/**}'
+      path: '{/blog/*/**}'
     type: article
     params:
       show_breadcrumb: true
@@ -18,9 +18,10 @@ sections:
       title: Latest Insights
       subtitle: "Exploring the intersection of Actuarial Science, Data, and Technology."
       text: ""
+          order: desc
       filters:
         folders:
-          - post # This targets the 'content/post' folder
+              - blog
         exclude_featured: false
     design:
       view: article-grid
