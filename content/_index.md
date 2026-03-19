@@ -126,7 +126,7 @@ sections:
       # subtitle: 'Scroll to see more →'
       subtitle: ''
       text: '<a href="/blog/" style="display:inline-block;padding:0.5rem 1rem;background:#0ea5a4;color:#ffffff;border-radius:0.375rem;text-decoration:none;margin-bottom:1rem;">View all blog posts</a>'
-      count: 3
+      count: 6
       filters:
         # Use folders to select blog content (posts with cover/image front matter).
         folders:
