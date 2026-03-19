@@ -1,6 +1,5 @@
 ---
 title: Blog
-view: article-grid
 summary: "Insights on Actuarial Science, Machine Learning, and R."
 type: landing
 
@@ -20,11 +19,11 @@ sections:
       text: ""
       filters:
         folders:
-              - blog
+          - blog
         exclude_featured: false
     design:
-      view: article-grid
-      columns: 3 # 3 columns looks best for blog posts
+      view: card
+      columns: '3'
       show_read_time: true
       show_date: true
       show_authors: false
