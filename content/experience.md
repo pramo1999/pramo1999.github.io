@@ -17,11 +17,12 @@ sections:
       # Hugo date format
       date_format: 'January 2006'
       # Education or Experience section first?
-      is_education_first: true
+      is_education_first: false
   - block: markdown
     content:
       title: ''
       text: |
+        <div id="more-experience-wrapper" style="margin: 1rem 0 2.5rem 0;">
         <details style="padding: 1.5rem; background-color: #f9fafb; border: 1px solid #e5e7eb; border-radius: 0.5rem;">
         <summary style="cursor: pointer; font-weight: bold; color: #0ea5a4; font-size: 1.1rem;">➕ View More Experience</summary>
         <div style="margin-top: 1.5rem;">
@@ -36,8 +37,27 @@ sections:
         <p style="margin-top: 0.5rem; font-size: 0.95rem;">Gained foundational international experience in life insurance modeling and risk assessment.</p>
         </div>
         </details>
+        </div>
+        
+        <script>
+          document.addEventListener("DOMContentLoaded", function() {
+            // Find the Education header and automatically move the pop-up above it
+            const headers = document.querySelectorAll('h2, h3');
+            for (let h of headers) {
+              if (h.textContent.trim() === 'Education') {
+                const popup = document.getElementById('more-experience-wrapper');
+                if (popup && h.parentNode) {
+                  h.parentNode.insertBefore(popup, h);
+                }
+                break;
+              }
+            }
+          });
+        </script>
     design:
       columns: '1'
+      spacing:
+        padding: ['0', '0', '0', '0']
   - block: resume-awards
     content:
       title: Awards
@@ -52,7 +72,7 @@ sections:
     content:
       title: Volunteer Experience
       text: |
-        * **Panelist**, First Year Panel at ASOC’s “Understanding Exemptions” event, ANU (March 2024)
+        * **Panelist**, First Year Panel at ASOC’s “Understanding Exemptions” event, ANU (March 2024, Feb 2025)
         * **Guest speaker**, Actuarial information session for high school students, ANU (Sem 2 2023)
         * **First aid officer**, CSIT, ANU (Feb 2022 – Aug 2023)
         * **Director of finance**, United Nations Youth ACT (Dec 2020 – Dec 2021)  
