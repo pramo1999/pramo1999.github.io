@@ -182,13 +182,6 @@ languages:
 
 # Awards.
 awards:
-  - title: GovHack 2023 Winner
-    url: https://govhack.org/
-    date: '2023-08-20'
-    awarder: GovHack
-    icon: hero/trophy
-    summary: |
-      Delivered a winning presentation on Victorian recycling trends.
   - title: First Class Honours
     url: https://www.anu.edu.au/
     date: '2025-12-01'
@@ -203,6 +196,20 @@ awards:
     icon: hero/check-badge
     summary: |
       Associateship (AIAA) after completing Foundation and Actuary programs.
+  - title: Actuaries Institute Mentorship Program
+    url: 'https://www.actuaries.asn.au/membership/mentor-program'
+    date: '2024-06-01'
+    awarder: Actuaries Institute Australia
+    icon: hero/user-group
+    summary: |
+      Selected for a competitive six-month mentorship program, receiving one-on-one guidance from Su Li, an experienced superannuation professional. The program provided valuable industry insights and strategic career development.
+  - title: GovHack 2023 Winner
+    url: https://govhack.org/
+    date: '2023-08-20'
+    awarder: GovHack
+    icon: hero/trophy
+    summary: |
+      Delivered a winning presentation on Victorian recycling trends.
 ---
 
 Pramo Samarasinghe is an Actuarial Analyst and Computer Scientist with over three years of experience at the Australian Government Actuary (Treasury). A recent First Class Honours graduate from ANU, he specializes in the intersection of actuarial science and machine learning, specifically using national-scale health data to improve mortality forecasting. Outside of his technical work, Pramo is a dedicated leader in the community, serving as the Director of Finance for UN Youth ACT and mentoring students through university programs.
