@@ -32,10 +32,10 @@ tags:
 
 featured: true
 
-image:
-  filename: unsw.jpg
-  focal_point: Center
-  preview_only: true
+# image:
+#   filename: unsw.jpg
+#   focal_point: Center
+#   preview_only: true
 
 links:
   - type: url

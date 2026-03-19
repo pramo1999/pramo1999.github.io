@@ -4,8 +4,8 @@ date: "2026-03-07"
 layout: post
 categories:
   - worksheets
-image:
-  filename: haskell_logo.png
+# image:
+#   filename: haskell_logo.png
 ---
 
 ## INTRODUCTION TO Haskell

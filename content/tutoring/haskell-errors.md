@@ -5,8 +5,8 @@ layout: post
 output: pdf_document
 categories:
   - worksheets
-image:
-  filename: haskell_logo.png
+# image:
+#   filename: haskell_logo.png
 ---
 
 ## Errors 101
