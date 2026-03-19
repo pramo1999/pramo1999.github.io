@@ -10,7 +10,7 @@ tags:
 image:
   filename: featured.png
   caption: 'Activate to view larger image'
-  focal_point: ''
+  focal_point: 'center'
 draft: false
 ---
 
