@@ -179,8 +179,8 @@ sections:
         folders:
           - events
     design:
-      view: card
-      columns: '3'
+      view: article-grid
+      columns: 3
 
   - block: collection
     id: certifications
