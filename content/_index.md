@@ -160,7 +160,7 @@ sections:
   - block: collection
     id: certifications
     content:
-      title: Certifications Completed
+      title: Certifications Completed and ongoing
       subtitle: 'Selected certificates and professional courses'
       text: ''
       count: 6
