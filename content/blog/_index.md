@@ -22,8 +22,8 @@ sections:
           - blog
         exclude_featured: false
     design:
-      view: card
-      columns: '3'
+      view: article-grid
+      columns: 3
       show_read_time: true
       show_date: true
       show_authors: false

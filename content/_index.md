@@ -123,7 +123,8 @@ sections:
     id: blog
     content:
       title: R-Blog & Actuarial Projects
-      subtitle: 'Scroll to see more →'
+      # subtitle: 'Scroll to see more →'
+      subtitle: ''
       text: '<a href="/blog/" style="display:inline-block;padding:0.5rem 1rem;background:#0ea5a4;color:#ffffff;border-radius:0.375rem;text-decoration:none;margin-bottom:1rem;">View all blog posts</a>'
       count: 3
       filters:
@@ -132,9 +133,8 @@ sections:
           - blog
         exclude_featured: false
     design:
-      view: card
-      columns: 2
-      css_class: "horizontal-scroll-section"
+      view: article-grid
+      columns: 3
 
   - block: collection
     id: papers
