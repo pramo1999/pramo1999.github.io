@@ -62,12 +62,6 @@ sections:
     content:
       title: Awards
       username: admin
-  - block: resume-skills
-    content:
-      title: Skills & Hobbies
-      username: admin
-    design:
-      show_skill_percentage: false
   - block: markdown
     content:
       title: Volunteer Experience
@@ -86,6 +80,13 @@ sections:
           Assigned two advanced level classes of around 30 students each to teach combined mathematics and chemistry. Also taught in lower nursery classes as an assistant teacher during this period.
     design:
       columns: '1'
+  - block: resume-skills
+    content:
+      title: Skills & Hobbies
+      username: admin
+    design:
+      show_skill_percentage: false
+      columns: '2'
   - block: resume-languages
     content:
       title: Languages
