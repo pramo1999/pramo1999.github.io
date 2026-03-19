@@ -136,7 +136,7 @@ work:
     company_url: 'https://comp.anu.edu.au/'
     icon: 'book-open'
     date_start: 2020-07-01
-    date_end: Present
+    date_end: ''
     summary: |
       (With a break in 2024, due to personal circumstances)
       Throughout my experience as a tutor, I developed leadership and communication skills. I have contributed by making numerous assignments, exams, and content. I have been proactive and helped with numerous backend tasks such as exam invigilation, oral exams, marking. Courses taught; COMP1100, COMP1110, COMP1600.
