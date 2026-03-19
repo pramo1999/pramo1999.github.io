@@ -203,6 +203,7 @@ awards:
     icon: hero/user-group
     summary: |
       Selected for a competitive six-month mentorship program, receiving one-on-one guidance from Su Li, an experienced superannuation professional. The program provided valuable industry insights and strategic career development.
+      What did I learn? I will let you know in six months :)
   - title: GovHack 2023 Winner
     url: https://govhack.org/
     date: '2023-08-20'
