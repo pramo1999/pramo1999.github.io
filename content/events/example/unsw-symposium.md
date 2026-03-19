@@ -1,5 +1,5 @@
 ---
-title: "Towards Fairer Retirement Outcomes: Health-Related Mortality Modelling"
+title: "2025 Australasian Actuarial Education and Research Symposium - Talk"
 
 event: 2025 Australasian Actuarial Education and Research Symposium
 event_url: https://conference.unsw.edu.au/en/2025-australasian-actuarial-education-and-research-symposium
