@@ -124,7 +124,7 @@ sections:
     content:
       title: R-Blog & Actuarial Projects
       subtitle: 'Scroll to see more →'
-      text: ''
+      text: '<a href="/blog/" style="display:inline-block;padding:0.5rem 1rem;background:#0ea5a4;color:#ffffff;border-radius:0.375rem;text-decoration:none;margin-bottom:1rem;">View all blog posts</a>'
       count: 3
       sort_by: 'Date'
       sort_ascending: false
