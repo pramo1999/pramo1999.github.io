@@ -84,16 +84,6 @@ Below is a snapshot of my **High Distinction (HD)** results from the Australian 
 
 </div>
 
-## Courses
-
-Below are selected professional courses. Click any card to view the full details and syllabus.
-
-{{< cards >}}
-  {{< card url="https://www.actuaries.asn.au/practice-areas/climate-and-sustainability/external-resources" title="Climate and Sustainability Learning Resource (Ongoing)" icon="document-text" subtitle="ANU short course" >}}
-  {{< card url="https://www.actuaries.asn.au/learning/learning-resources" title="AI and Data Science Learning Resource (Ongoing)" icon="chart-bar" subtitle="Practical data skills" >}}
-{{< /cards >}}
-
 ## 🏅 Certifications
 
 ## Personal Learning 
-
