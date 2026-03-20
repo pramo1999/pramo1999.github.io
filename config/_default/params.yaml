@@ -21,40 +21,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   theme:
     mode: system
-    pack: "default"
-
-    # MAIN COLOUR PALETTE
-    colors:
-      primary: "#C6A988"      # Warm beige–brown (accent)
-      secondary: "#8C7B6C"    # Darker taupe
-      neutral: "#1A1816"      # Very dark neutral for default backgrounds
-
-    # LIGHT MODE OVERRIDES (Kept clean and legible)
-    colors_light:
-      primary: "#B09574"      # Slightly darker gold for readability on light bg
-      secondary: "#A68F78"
-      background: "#F7F3EC"   # Soft beige
-      foreground: "#2D2620"   # Deep brown-black text (sharper than before)
-
-    # DARK MODE OVERRIDES (Deep Espresso / Near Black)
-    colors_dark:
-      primary: "#DBC1A7"      # Lighter beige to pop against the black background
-      secondary: "#756354"    # Muted cocoa
-      background: "#0C0B0A"   # <--- CHANGED: Almost pure black with a tiny warm tint
-      foreground: "#E6E1DB"   # Off-white beige text (High contrast, easy on eyes)
-
-    # SEMANTIC SURFACES
-    # These generally apply to light mode, but the 'colors_dark' above
-    # will override them when the system switches to dark mode.
-    surfaces:
-      background: "#F7F3EC"
-      foreground: "#2D2620"
-      header:
-        background: "#EDE6DD" # Slightly darker beige for header definition
-        foreground: "#2D2620"
-      footer:
-        background: "#EDE6DD"
-        foreground: "#2D2620"
+    color: coffee
 
   typography:
     font: "sans"
