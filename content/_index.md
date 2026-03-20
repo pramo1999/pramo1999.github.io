@@ -33,10 +33,13 @@ sections:
         shape: circle
 
   - block: markdown
+    id: my-research
     content:
       title: '📚 My Research'
       subtitle: ''
       text: |-
+        <style>#my-research .prose { max-width: none !important; }</style>
+
         My Honours research, “Rethinking Mortality Using a State-Based Dynamic Probabilistic Model,” tackles one of the most complex financial and social challenges in Australia: predicting how long a population will live when health and lifestyle are constantly shifting. 
         
         #### The Innovation: Breaking the "Static" Mold
