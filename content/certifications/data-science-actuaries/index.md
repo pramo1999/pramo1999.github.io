@@ -1,6 +1,6 @@
 ---
-title: "Data Science for Actuaries"
-date: 2023-08-20
+title: "Data Science Applications (Next semester)"
+date: 2026-08-20
 issuer: "Coursera / University Partner"
 summary: "Core data science skills tailored for actuarial workflows: data wrangling, visualization, and practical ML applications."
 tags:
