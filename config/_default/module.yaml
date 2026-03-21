@@ -23,3 +23,5 @@ mounts:
     target: layouts
   - source: assets
     target: assets
+  - source: assets/Logo.png
+    target: assets/media/logo.png
