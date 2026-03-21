@@ -1,6 +1,6 @@
 ---
 title: "It's Official: I Have Graduated!"
-date: "2024-03-08T00:00:00Z"
+date: "2026-03-08T00:00:00Z"
 summary: "A reflection on my university journey, the scenic route to three degrees, and the lessons learned along the way."
 authors:
   - admin
