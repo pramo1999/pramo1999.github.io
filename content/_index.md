@@ -33,7 +33,7 @@ sections:
 
         My commitment to impactful work also drove my **Honours research**, which introduced novel health-based variables into mortality projections. This research aims to refine mortality predictions to ensure more accurate and sustainable retirement pricing for Australians.
 
-        I am very driven, and I dedicated, and I think thats my super prower!
+        **I am very driven, and I dedicated, and I think thats my super prower!**
 
         <div style="display:flex;gap:0.5rem;align-items:center;padding-top:1rem">
         <a href="experience/" style="display:inline-block;padding:0.5rem 1rem;background:#0ea5a4;color:#ffffff;border-radius:0.375rem;text-decoration:none">View Experience</a>
