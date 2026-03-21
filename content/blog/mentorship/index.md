@@ -1,6 +1,6 @@
 ---
 title: "Mentorship: A New Chapter with the Actuaries Institute"
-date: "2024-03-21T12:00:00Z"
+date: "2026-03-21T12:00:00Z"
 summary: "I'm excited to announce my selection as a mentee in the 2024 Actuaries Institute Mentoring Program."
 authors:
   - admin
