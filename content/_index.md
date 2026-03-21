@@ -17,23 +17,30 @@ sections:
 
         I am an **Actuarial Analyst and Computer Scientist** based in Canberra. I recently graduated from the **Australian National University** with **First Class Honours in Computing**, alongside degrees in **Actuarial Studies and Science** (Computing major and Mathematics minor).
 
-        ### Professional Vision
-        My expertise lies at the intersection of machine learning and actuarial science. I am dedicated to applying advanced computing techniques to enhance data interpretation and risk assessment. My core philosophy is to move beyond "black box" modeling, ensuring that complex algorithms remain interpretable, transparent, and ethically sound for stakeholders.
+        **I am very driven, and I dedicated, and I think thats my super prower! This will be my professional journey.**
 
-        ### My Value Proposition: Grit and Dedication
-        While many focus solely on technical aptitude, I believe my greatest asset is my **unwavering drive and dedication**. I pursued a multidisciplinary double degree to develop a niche skill set that bridges the gap between raw data science and rigorous actuarial standards. 
+        <details style="margin: 1.5rem 0; padding: 1.5rem; border: 1px solid rgba(128, 128, 128, 0.3); border-radius: 0.5rem;">
+        <summary style="cursor: pointer; font-weight: bold; font-size: 1.1rem; outline: none;">➕ Read more about my background</summary>
+        <div style="margin-top: 1.5rem;">
+        
+        <h3 style="margin-top: 0; font-size: 1.25rem;">Professional Vision</h3>
+        <p style="margin-bottom: 1rem;">My expertise lies at the intersection of machine learning and actuarial science. I am dedicated to applying advanced computing techniques to enhance data interpretation and risk assessment. My core philosophy is to move beyond "black box" modeling, ensuring that complex algorithms remain interpretable, transparent, and ethically sound for stakeholders.</p>
 
-        I have a proven track record of managing high-pressure, complex workloads. During my final two years of university, I successfully balanced a role at the **Australian Government Actuary** while overloading with multiple Part 2 and 3 courses for the Actuaries Institute. As a result, I completed **all but one actuarial exam** required for Fellowship prior to graduation.
+        <h3 style="font-size: 1.25rem;">My Value Proposition: Grit and Dedication</h3>
+        <p style="margin-bottom: 1rem;">While many focus solely on technical aptitude, I believe my greatest asset is my <strong>unwavering drive and dedication</strong>. I pursued a multidisciplinary double degree to develop a niche skill set that bridges the gap between raw data science and rigorous actuarial standards.</p> 
 
-        ### Proactive Leadership & Initiative
-        I am a proactive leader who identifies gaps and creates solutions. Recognizing a need for better community representation, I **initiated and co-founded the first Sri Lankan Society at ANU**. This role required high-level organization, task management, and the ability to coordinate large-scale events and programs from the ground up.
+        <p style="margin-bottom: 1rem;">I have a proven track record of managing high-pressure, complex workloads. During my final two years of university, I successfully balanced a role at the <strong>Australian Government Actuary</strong> while overloading with multiple Part 2 and 3 courses for the Actuaries Institute. As a result, I completed <strong>all but one actuarial exam</strong> required for Fellowship prior to graduation.</p>
 
-        ### Research & Mentorship
-        I am deeply committed to the idea of "lifting as you climb." As a tutor and mentor, I took the initiative to redesign course content and develop original assignments to improve the student experience (examples of which can be found in my [Projects section](https://www.pramo.info/projects/)).
+        <h3 style="font-size: 1.25rem;">Proactive Leadership & Initiative</h3>
+        <p style="margin-bottom: 1rem;">I am a proactive leader who identifies gaps and creates solutions. Recognizing a need for better community representation, I <strong>initiated and co-founded the first Sri Lankan Society at ANU</strong>. This role required high-level organization, task management, and the ability to coordinate large-scale events and programs from the ground up.</p>
 
-        My commitment to impactful work also drove my **Honours research**, which introduced novel health-based variables into mortality projections. This research aims to refine mortality predictions to ensure more accurate and sustainable retirement pricing for Australians.
+        <h3 style="font-size: 1.25rem;">Research & Mentorship</h3>
+        <p style="margin-bottom: 1rem;">I am deeply committed to the idea of "lifting as you climb." As a tutor and mentor, I took the initiative to redesign course content and develop original assignments to improve the student experience (examples of which can be found in my <a href="/projects/" style="text-decoration: underline;">Projects section</a>).</p>
 
-        **I am very driven, and I dedicated, and I think thats my super prower!**
+        <p style="margin-bottom: 0;">My commitment to impactful work also drove my <strong>Honours research</strong>, which introduced novel health-based variables into mortality projections. This research aims to refine mortality predictions to ensure more accurate and sustainable retirement pricing for Australians.</p>
+        
+        </div>
+        </details>
 
         <div style="display:flex;gap:0.5rem;align-items:center;padding-top:1rem">
         <a href="experience/" style="display:inline-block;padding:0.5rem 1rem;background:#0ea5a4;color:#ffffff;border-radius:0.375rem;text-decoration:none">View Experience</a>
