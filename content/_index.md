@@ -17,7 +17,7 @@ sections:
 
         I am an **Actuarial Analyst and Computer Scientist** based in Canberra. I recently graduated from the **Australian National University** with **First Class Honours in Computing**, alongside degrees in **Actuarial Studies and Science** (Computing major and Mathematics minor).
 
-        **I am very driven, and I dedicated, and I think thats my super prower! This will be my professional journey.**
+        **My greatest assets are my drive and dedication. I look forward to sharing my professional journey here on this website!**
 
         <details style="margin: 1.5rem 0; padding: 1.5rem; border: 1px solid rgba(128, 128, 128, 0.3); border-radius: 0.5rem;">
         <summary style="cursor: pointer; font-weight: bold; font-size: 1.1rem; outline: none;">➕ Read more about my background</summary>
