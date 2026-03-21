@@ -12,7 +12,7 @@ image:
   caption: 'Activate to view larger image'
   focal_point: 'center'
 draft: false
-weight: 0
+weight: 1
 ---
 
 It’s official: I have graduated!
