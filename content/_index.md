@@ -13,11 +13,27 @@ sections:
     content:
       username: admin
       text: |-
-        Hi—I'm Pramo. I am an Actuarial Analyst and Computer Scientist based in Canberra. I recently graduated from the Australian National University with First Class Honours in Computing, alongside degrees in Actuarial Studies and Science.
+        # Hi—I’m Pramo.
 
-        I bring over three years of experience from the Australian Government Actuary (Treasury), where I specialize in developing and debugging actuarial models using SAS and R. My research interests lie at the intersection of machine learning and actuarial science, specifically using national-scale health data (PLIDA) to improve mortality forecasting.
+        I am an **Actuarial Analyst and Computer Scientist** based in Canberra. I recently graduated from the **Australian National University** with **First Class Honours in Computing**, alongside degrees in **Actuarial Studies and Science** (Computing major and Mathematics minor).
 
-        Additionally, I have been actively pursuing my qualification with the Actuaries Institute. Alongside full-time university studies, I have successfully completed all but one actuarial exam and am currently awaiting my Associateship.
+        ### Professional Vision
+        My expertise lies at the intersection of machine learning and actuarial science. I am dedicated to applying advanced computing techniques to enhance data interpretation and risk assessment. My core philosophy is to move beyond "black box" modeling, ensuring that complex algorithms remain interpretable, transparent, and ethically sound for stakeholders.
+
+        ### My Value Proposition: Grit and Dedication
+        While many focus solely on technical aptitude, I believe my greatest asset is my **unwavering drive and dedication**. I pursued a multidisciplinary double degree to develop a niche skill set that bridges the gap between raw data science and rigorous actuarial standards. 
+
+        I have a proven track record of managing high-pressure, complex workloads. During my final two years of university, I successfully balanced a role at the **Australian Government Actuary** while overloading with multiple Part 2 and 3 courses for the Actuaries Institute. As a result, I completed **all but one actuarial exam** required for Fellowship prior to graduation.
+
+        ### Proactive Leadership & Initiative
+        I am a proactive leader who identifies gaps and creates solutions. Recognizing a need for better community representation, I **initiated and co-founded the first Sri Lankan Society at ANU**. This role required high-level organization, task management, and the ability to coordinate large-scale events and programs from the ground up.
+
+        ### Research & Mentorship
+        I am deeply committed to the idea of "lifting as you climb." As a tutor and mentor, I took the initiative to redesign course content and develop original assignments to improve the student experience (examples of which can be found in my [Projects section](https://www.pramo.info/projects/)).
+
+        My commitment to impactful work also drove my **Honours research**, which introduced novel health-based variables into mortality projections. This research aims to refine mortality predictions to ensure more accurate and sustainable retirement pricing for Australians.
+
+        I am very driven, and I dedicated, and I think thats my super prower!
 
         <div style="display:flex;gap:0.5rem;align-items:center;padding-top:1rem">
         <a href="experience/" style="display:inline-block;padding:0.5rem 1rem;background:#0ea5a4;color:#ffffff;border-radius:0.375rem;text-decoration:none">View Experience</a>
