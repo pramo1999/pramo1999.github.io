@@ -1,48 +1,28 @@
 ---
-title: 'Projects'
-date: 2024-05-19
+title: 'Personal Projects'
+summary: "A creative space for my photography and painting blogs."
 type: landing
 
-design:
-  # Section spacing
-  spacing: '5rem'
-
-# Page sections
 sections:
   - block: collection
     content:
-      title: Selected Projects
-      text: Here are a fewprojects I have been working on over the years. 
-      filters:
-        folders:
-          - projects
-    design:
-      view: article-grid
-      fill_image: false
-      columns: 3
-      show_date: false
-      show_read_time: false
-      show_read_more: false
-  - block: collection
-    content:
-      title: Tutoring and Content Creation
-      filters:
-        folders:
-          - tutoring
-    design:
-      view: article-grid
-      fill_image: false
-      columns: 2
-      show_date: false
-      show_read_time: false
-      show_read_more: false
-  - block: collection
-    content:
       title: Photography
-      text: "A collection of my photography work and photo blog posts."
+      text: "My favorite shots and photography blog posts."
       filters:
         folders:
           - photography
+    design:
+      view: article-grid
+      columns: 3
+      show_date: true
+      
+  - block: collection
+    content:
+      title: Painting
+      text: "A collection of my painting work and creative pieces."
+      filters:
+        folders:
+          - painting
     design:
       view: article-grid
       columns: 3
