@@ -62,6 +62,8 @@ sections:
     content:
       title: Awards
       username: admin
+    design:
+      columns: '2'
   - block: markdown
     content:
       title: Volunteer Experience

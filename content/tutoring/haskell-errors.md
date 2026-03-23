@@ -1,8 +1,7 @@
 ---
 title: "Error 101"
-date: "2020-05-04 11:00:00 +1100"
-layout: post
-output: pdf_document
+date: "2024-05-04"
+summary: "A guide on how to read, understand, and debug common Haskell error messages."
 categories:
   - worksheets
 # image:

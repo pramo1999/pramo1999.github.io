@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Haskell"
-date: "2026-03-07"
-layout: post
+date: "2024-03-07"
+summary: "A comprehensive worksheet introducing basic Haskell concepts, functions, and lists."
 categories:
   - worksheets
 # image:
