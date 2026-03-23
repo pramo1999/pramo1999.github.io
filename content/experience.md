@@ -55,7 +55,7 @@ sections:
           });
         </script>
     design:
-      columns: '1'
+      columns: 1
       spacing:
         padding: ['0', '0', '0', '0']
   - block: resume-awards
@@ -63,7 +63,7 @@ sections:
       title: Awards
       username: admin
     design:
-      columns: '2'
+      columns: 2
   - block: markdown
     content:
       title: Volunteer Experience
@@ -81,14 +81,14 @@ sections:
         * **Substitute Teacher**, Musaeus College, Sri Lanka (Sept 2018 – Nov 2018)  
           Assigned two advanced level classes of around 30 students each to teach combined mathematics and chemistry. Also taught in lower nursery classes as an assistant teacher during this period.
     design:
-      columns: '1'
+      columns: 1
   - block: resume-skills
     content:
       title: Skills & Hobbies
       username: admin
     design:
       show_skill_percentage: false
-      columns: '2'
+      columns: 2
   - block: resume-languages
     content:
       title: Languages
