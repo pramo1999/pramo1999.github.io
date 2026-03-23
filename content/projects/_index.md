@@ -36,6 +36,15 @@ sections:
       show_date: false
       show_read_time: false
       show_read_more: false
+  - block: collection
+    content:
+      title: Photography
+      text: "A collection of my photography work and photo blog posts."
+      filters:
+        folders:
+          - photography
+    design:
+      view: article-grid
+      columns: 3
+      show_date: true
 ---
-
-
