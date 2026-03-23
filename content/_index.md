@@ -13,9 +13,9 @@ sections:
     content:
       username: admin
       text: |-
-        # Hi—I’m Pramo.
+        # Hi—I’m Pramo!
 
-        I am an **Actuarial Analyst and Computer Scientist** based in Canberra. I recently graduated from the **Australian National University** with **First Class Honours in Computing**, alongside degrees in **Actuarial Studies and Science** (Computing major and Mathematics minor).
+        I am an **Actuarial Analyst and Computer Scientist** based in Canberra. I recently graduated from the **Australian National University** with **First Class Honours in Computing**, alongside degrees in **Actuarial Studies and Science** (Computing major and Mathematics minor)**.
 
         **My greatest assets are my drive and dedication. I look forward to sharing my professional journey here on this website!**
 

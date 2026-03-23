@@ -24,6 +24,7 @@ cascade:
 {{< cards >}}
   {{< card url="university-courses" title="🎓 University Courses" icon="academic-cap" subtitle="View detailed transcripts and specific course notes" >}}
   {{< card url="microsoft-courses" title="🎓 Microsoft Courses" icon="academic-cap" subtitle="View course details and content" >}}
+  {{< card url="certifications" title="🎓 Certifications" icon="academic-cap" subtitle="RG146 and other professional certifications" >}}
 {{< /cards >}}
 
 <br>
