@@ -1,24 +1,14 @@
 ---
 linkTitle: Microsoft Courses
-title: Microsoft Courses
-summary: Microsoft Courses and Certifications Completed
-date: 2025-12-12
+title: Microsoft Courses & Certifications
+summary: Microsoft technical courses and certifications I have completed.
 type: docs
-
-# This tag allows you to filter this content later
-tags:
-  - Academic
-  - Grades
-
 ---
 
 ## Overview
 
-This page details Microsoft Courses and Certifications I have completed, along with additional details on the completed course. . Click any item to read the syllabus, topics covered, and specialties.
+This page details the Microsoft technical courses and official certifications I have completed to augment my data science and computing skill set.
 
-{{< doclist folder="../certifications/" >}}
+Click any item below to view the course details and my verified credentials.
 
-<!-- {{< cards >}}
-  {{< card url="/#rblog" title="R-Blog Projects" icon="code-bracket" subtitle="See my code in action" >}}
-  {{< card url="/#contact" title="Get in Touch" icon="envelope" subtitle="Discuss opportunities" >}}
-{{< /cards >}} -->
+{{< doclist >}}
