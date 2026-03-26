@@ -31,7 +31,7 @@ featured: true
 
 links:
   - type: pdf
-    url: /publications/Honours/thesis.pdf
+    url: thesis.pdf
 
 # Featured image (Add featured.jpg/png to the folder)
 image:
@@ -58,6 +58,6 @@ slides: ""
 The full thesis PDF is embedded below for convenient reading.
 
 <div style="margin-top:1rem;">
-  <p><strong>Full thesis (PDF):</strong> <a href="/publications/Honours/thesis.pdf" target="_blank" rel="noopener">Download the thesis (PDF)</a></p>
+  <p><strong>Full thesis (PDF):</strong> <a href="thesis.pdf" target="_blank" rel="noopener">Download the thesis (PDF)</a></p>
 
 </div>
