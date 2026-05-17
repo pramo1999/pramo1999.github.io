@@ -27,8 +27,6 @@ This project brings together several areas I care deeply about: actuarial judgem
 
 I contributed to the work as part of the research team and helped develop the interactive explorer experience, including the medical explorer component. Building tools like this is the kind of actuarial work I find most meaningful: rigorous enough to support professional decision-making, but accessible enough to invite better questions from people outside the modelling process.
 
-It has also been rewarding to connect this research with my broader involvement in the actuarial community. I volunteer with the **Actuaries Institute**, including through young actuary initiatives focused on careers, leadership, and member engagement. That work has reminded me how much stronger the profession becomes when technical research, early-career development, and community-building are treated as connected parts of the same mission.
-
 ## Why This Matters
 
 Mortality modelling is often discussed in aggregate, but real lives are not aggregate. Socio-economic differences can affect longevity in ways that are material for retirement outcomes, product design, and policy decisions. Models that recognise those differences can help actuaries ask sharper questions about equity, sustainability, and the assumptions sitting behind financial advice and institutional decisions.
