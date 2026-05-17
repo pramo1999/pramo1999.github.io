@@ -1,6 +1,7 @@
 ---
-title: "Australian Mortality Research Published — Interactive Explorer Now Available"
+title: "Mortality Research Published: Modelling Socio-economic Differences in Australia"
 date: 2026-05-17
+summary: "Our Actuaries Institute research paper on socio-economic mortality modelling is now available, alongside an interactive Australian Longevity Explorer."
 authors:
   - admin
 categories:
@@ -11,32 +12,30 @@ tags:
   - Longevity
   - Actuaries Institute
   - Australian Longevity
+draft: false
 ---
 
-I'm excited to share that a new mortality research paper has just been published — **[read it here](https://content.actuaries.asn.au/resources/resource-ce6yyqn64sx3-786882053-16716)**. The authors also published an interactive data explorer to help you interrogate the results and visualise trends — **[try the tool here](https://auslongevity.shinyapps.io/explorer/)**.
+I'm very pleased to share that our Actuaries Institute research paper, **[Incorporating Socio-economic Factors in Mortality Modelling](https://content.actuaries.asn.au/resources/resource-ce6yyqn64sx3-786882053-16716)**, is now available.
 
-## What I'm Doing with This Work
+The paper explores how socio-economic characteristics can be incorporated into mortality modelling in Australia. That matters because mortality assumptions are not just abstract technical inputs. They shape retirement income projections, insurance pricing, capital decisions, public policy analysis, and the way actuaries think about fairness across different communities.
 
-I'm proud to be volunteering with the **Actuaries Institute** and helping amplify research like this. This mortality research advances our understanding of longevity risk and gives practitioners practical tools to make better decisions. If you're interested in collaborating, contributing, or seeing how this research could inform your work, I'd love to connect.
+Alongside the paper, we have also released the **[Australian Longevity Explorer](https://auslongevity.shinyapps.io/explorer/)**, an interactive tool for exploring projected life expectancy and annuity income under different demographic and socio-economic profiles. It is designed to make the research more usable: not only as a paper to read, but as a model to interrogate, test, and discuss.
 
-## Join the YAP Career & Leadership Working Group
+## My Contribution
 
-I'm also forming the **YAP Career & Leadership Working Group** to formalise and recognise the volunteers who help shape our Career Series and co-design future events. Here are the role details:
+This project brings together several areas I care deeply about: actuarial judgement, statistical modelling, public-interest research, and practical tools that help people understand complex risk.
 
-- **Purpose:** Formalise and recognise volunteers who support the Career Series and co-design future events and programming
-- **Key responsibilities:** 
-  - Assist with Career Series delivery (event planning, speaker coordination, session moderation)
-  - Brainstorm and develop themes that resonate with members
-  - Contribute to planning the Young Actuaries Conference (YAC)
-- **Time commitment:** Ongoing volunteer role with periodic planning meetings (planning kicks off after the Summit)
-- **Recognition & benefits:** 
-  - Role listed on your Actuaries Institute member profile
-  - Invitations to Volunteer Thank You events and networking dinners
-  - Opportunity to showcase leadership and shape program content
-- **How to apply:** Submit an Expression of Interest (EOI) via the member portal
+I contributed to the work as part of the research team and helped develop the interactive explorer experience, including the medical explorer component. Building tools like this is the kind of actuarial work I find most meaningful: rigorous enough to support professional decision-making, but accessible enough to invite better questions from people outside the modelling process.
 
-## Get Involved
+It has also been rewarding to connect this research with my broader involvement in the actuarial community. I volunteer with the **Actuaries Institute**, including through young actuary initiatives focused on careers, leadership, and member engagement. That work has reminded me how much stronger the profession becomes when technical research, early-career development, and community-building are treated as connected parts of the same mission.
 
-If you'd like to be a founding member of the Working Group, **[submit your EOI on the member portal](https://www.actuaries.asn.au/)**. I'd be delighted to work with you to shape the Career Series and bring YAC themes to life for December.
+## Why This Matters
 
-Warm regards
+Mortality modelling is often discussed in aggregate, but real lives are not aggregate. Socio-economic differences can affect longevity in ways that are material for retirement outcomes, product design, and policy decisions. Models that recognise those differences can help actuaries ask sharper questions about equity, sustainability, and the assumptions sitting behind financial advice and institutional decisions.
+
+For me, this publication is a milestone because it sits at the intersection of research and application. It is also a reminder of the kind of career I want to keep building: technically strong, socially aware, and useful in practice.
+
+You can read the paper through the Actuaries Institute and explore the interactive tool here:
+
+- **Research paper:** [Incorporating Socio-economic Factors in Mortality Modelling](https://content.actuaries.asn.au/resources/resource-ce6yyqn64sx3-786882053-16716)
+- **Interactive tool:** [Australian Longevity Explorer](https://auslongevity.shinyapps.io/explorer/)
