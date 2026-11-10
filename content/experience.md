@@ -68,6 +68,8 @@ sections:
     content:
       title: Volunteer Experience
       text: |
+        * **Founding Member**, YAP Career & Leadership Working Group, Actuaries Institute Australia (May 2026 – Present)<br>
+          Supporting the Actuaries Institute Career Series and young actuary engagement through event support, theme development, member-focused programming, and early planning for Young Actuaries Conference initiatives.
         * **Panelist**, First Year Panel at ASOC’s “Understanding Exemptions” event, ANU (March 2024, Feb 2025)
         * **Guest speaker**, Actuarial information session for high school students, ANU (Sem 2 2023)
         * **First aid officer**, CSIT, ANU (Feb 2022 – Aug 2023)

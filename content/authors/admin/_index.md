@@ -104,6 +104,14 @@ education:
       **Coursework:** Algorithms, Number Theory & Cryptography, Structured Programming, Discrete Mathematics.
 
 work:
+  - position: Founding Member, YAP Career & Leadership Working Group
+    company_name: Actuaries Institute Australia
+    company_url: 'https://www.actuaries.asn.au/'
+    icon: 'user-group'
+    date_start: 2026-05-01
+    date_end: ''
+    summary: |
+      Volunteer role supporting the Actuaries Institute Career Series and young actuary engagement. Contributing to event planning, theme development, member-focused programming, and early planning for Young Actuaries Conference initiatives.
   - position: Actuarial Consultant
     company_name: Department of Veterans Affairs
     company_url: 'https://www.dva.gov.au/'
@@ -166,11 +174,11 @@ skills:
     color_border: '#f0bf23'
     items:
       - name: Leadership & Mentoring
-        description: 'Set4ANU Mentor, PAL Mentor, Course Rep'
+        description: 'Actuaries Institute volunteer, Set4ANU Mentor, PAL Mentor'
         percent: 90
         icon: user-group
       - name: Event Organizing
-        description: 'Logic Summer School Organizer'
+        description: 'Career Series support, Logic Summer School Organizer'
         percent: 85
         icon: calendar
       - name: Financial Governance
