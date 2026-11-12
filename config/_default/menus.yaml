@@ -14,14 +14,14 @@ main:
     url: /projects/
     weight: 30
   - name: Research
-    url: /#Research
-    weight: 11
+    url: /#my-research
+    weight: 40
   - name: Courses
     url: /courses/
-    weight: 40
+    weight: 50
   - name: Blog
-    url: /#Blog
-    weight: 14
+    url: /#blog
+    weight: 60
   - name: Talks
     url: /talks/
-    weight: 12
+    weight: 70

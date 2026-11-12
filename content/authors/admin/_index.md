@@ -26,12 +26,12 @@ credentials: BSc, BActSt, BComp(Hons), AIAA
 highlight_name: true
 
 # Role/position/tagline
-role: Computer Scientist & Associate Actuary
+role: Actuarial Analyst at MetLife
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Australian Government Actuary
-    url: https://aga.gov.au/ 
+  - name: MetLife Australia
+    url: https://www.metlife.com.au/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -79,7 +79,7 @@ education:
     date_start: 2019-01-01
     date_end: 2025-12-01 # Ongoing/Current
     summary: |
-      **Status:** Eligible for Associateship (Awaiting Ceremony)
+      **Status:** Associate (AIAA)
       
       Completed the Foundation Program (6/6) and Actuary Program (4/4). Currently finalizing the Fellowship Program (2/3 completed).
 
@@ -104,6 +104,44 @@ education:
       **Coursework:** Algorithms, Number Theory & Cryptography, Structured Programming, Discrete Mathematics.
 
 work:
+  - position: Actuarial Analyst
+    company_name: MetLife Australia
+    company_url: 'https://www.metlife.com.au/'
+    icon: 'briefcase'
+    date_start: 2026-08-01
+    date_end: ''
+    summary: |
+      - Work through IER and repricing for group insurance portfolios, supporting pricing analysis and rate updates.
+  - position: Research Assistant
+    company_name: UNSW
+    company_url: 'https://www.unsw.edu.au/'
+    icon: 'beaker'
+    date_start: 2025-01-01
+    date_end: ''
+    summary: |
+      - Continue mortality-improvement research for Australian retirees by incorporating medical information into actuarial mortality models and extending Honours research into a practice-oriented framework for annuity and retirement pricing.
+      - Develop dynamic health-state modelling approaches that separate disease progression from one-year mortality estimation, enabling analysis of how medical history, socio-economic profile and transition probabilities affect longevity risk.
+      - Prepare practitioner-facing outputs, including pricing-relevant insights, visualisations, presentations and public tools that help actuaries and policymakers understand the impact of health and socio-economic information.
+  - position: Actuarial Consultant
+    company_name: "Department of Veterans' Affairs"
+    company_url: 'https://www.dva.gov.au/'
+    icon: 'briefcase'
+    date_start: 2026-02-01
+    date_end: 2026-08-01
+    summary: |
+      - Migrated large-scale actuarial models from SAS to Python, refactoring inherited modelling workflows into clearer, reproducible Python code while preserving actuarial correctness and improving transparency for future users.
+      - Applied actuarial judgement to understand assumptions, edge cases and data dependencies rather than treating the work as a simple code translation exercise.
+  - position: Senior Tutor
+    company_name: Australian National University
+    company_url: 'https://www.anu.edu.au/'
+    icon: 'book-open'
+    date_start: 2026-01-01
+    date_end: ''
+    summary: |
+      - Tutored and supported delivery for COMP1100, COMP1110, COMP1730S and COMP1600, helping large cohorts build confidence in programming, functional thinking and core computing concepts.
+      - Guided and supported other tutors, answered technical and administrative questions, and maintained consistency across large teaching teams.
+      - Contributed to assignment development, examination content, marking guidance, oral examinations, exam invigilation and backend teaching logistics.
+      - Demonstrated leadership under tight semester timelines by identifying problems early, improving explanations and resources, mentoring students and helping courses run smoothly.
   - position: Founding Member, YAP Career & Leadership Working Group
     company_name: Actuaries Institute Australia
     company_url: 'https://www.actuaries.asn.au/'
@@ -112,14 +150,6 @@ work:
     date_end: ''
     summary: |
       Volunteer role supporting the Actuaries Institute Career Series and young actuary engagement. Contributing to event planning, theme development, member-focused programming, and early planning for Young Actuaries Conference initiatives.
-  - position: Actuarial Consultant
-    company_name: Department of Veterans Affairs
-    company_url: 'https://www.dva.gov.au/'
-    icon: 'briefcase'
-    date_start: 2026-02-01
-    date_end: ''
-    summary: |
-      My primary focus involves the end-to-end migration of complex legacy actuarial models from SAS to Python. Throughout this process, I am responsible for reverse-engineering and optimizing the existing code to improve efficiency.
   - position: Actuarial Intern
     company_name: Australian Government Actuary, Treasury
     company_url: 'https://treasury.gov.au/'
@@ -139,32 +169,35 @@ work:
       
       Learnt concepts of times process algebra and developed an algorithm for the translation of timed aspects in process algebra. Currently testing and proving the algorithm and its accuracy. Continued as a research course after initial internship (Dec 2020 – Feb 2020).
       
-  - position: Academic Tutor
+  - position: Senior Tutor
     company_name: Australian National University
     company_url: 'https://comp.anu.edu.au/'
     icon: 'book-open'
     date_start: 2020-07-01
-    date_end: ''
+    date_end: 2024-12-31
     summary: |
-      (With a break in 2024, due to personal circumstances)
-      Throughout my experience as a tutor, I developed leadership and communication skills. I have contributed by making numerous assignments, exams, and content. I have been proactive and helped with numerous backend tasks such as exam invigilation, oral exams, marking. Courses taught; COMP1100, COMP1110, COMP1600.
+      Tutored COMP1100, COMP1110, COMP1730S and COMP1600 from 2020 to 2024. Returned to senior tutoring in 2026.
 
 # Skills
 skills:
   - name: Technical Skills
     items:
       - name: R & SAS
-        description: 'Used extensively for actuarial modelling at AGA'
+        description: 'Applied in public-sector actuarial modelling and model validation'
         percent: 95
         icon: code-bracket
       - name: Python & Machine Learning
-        description: 'Applied in Honours thesis for mortality modelling'
+        description: 'Honours mortality modelling and SAS-to-Python model migration'
         percent: 90
         icon: cpu-chip
       - name: Actuarial Modelling
-        description: 'GLMs, Survival Models, Risk Modelling'
+        description: 'GLMs, survival, mortality improvement, longevity and annuity pricing'
         percent: 100
         icon: chart-bar
+      - name: Data & Reproducible Reporting
+        description: 'SQL, Excel/VBA, model validation and reproducible reporting'
+        percent: 85
+        icon: code-bracket
       - name: Java & Haskell
         description: 'High Distinction achieved; Tutored courses'
         percent: 85
@@ -225,4 +258,4 @@ awards:
       Delivered a winning presentation on Victorian recycling trends.
 ---
 
-Pramo Samarasinghe is an Actuarial Analyst and Computer Scientist with over three years of experience at the Australian Government Actuary (Treasury). A recent First Class Honours graduate from ANU, he specializes in the intersection of actuarial science and machine learning, specifically using national-scale health data to improve mortality forecasting. Outside of his technical work, Pramo is a dedicated leader in the community, serving as the Director of Finance for UN Youth ACT and mentoring students through university programs.
+Pramo Samarasinghe is an Actuarial Analyst at MetLife Australia and an Associate of the Actuaries Institute (AIAA). Her experience spans life insurance pricing, public-sector actuarial modelling, and mortality research at UNSW. A First Class Honours graduate from ANU, she works at the intersection of actuarial science, computing and machine learning, using health and socio-economic information to improve mortality forecasting and make its implications easier to explore.

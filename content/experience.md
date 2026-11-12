@@ -22,19 +22,19 @@ sections:
     content:
       title: ''
       text: |
-        <div id="more-experience-wrapper" style="margin: 1rem 0 2.5rem 0;">
-        <details style="padding: 1.5rem; background-color: #f9fafb; border: 1px solid #e5e7eb; border-radius: 0.5rem;">
-        <summary style="cursor: pointer; font-weight: bold; color: #0ea5a4; font-size: 1.1rem;">➕ View More Experience</summary>
-        <div style="margin-top: 1.5rem;">
-        <h4 style="margin: 0 0 0.25rem 0; font-size: 1.1rem;">Research Support Officer</h4>
-        <p style="margin: 0; color: #4b5563; font-size: 0.9rem;"><em>Orima Research</em> | Feb 2021 – Dec 2021</p>
-        <p style="margin-top: 0.5rem; margin-bottom: 1.5rem; font-size: 0.95rem;">Conducted data analytics using Excel and SPSS. Assisted with coding open-ended comments and checking data accuracy in reports.</p>
-        <h4 style="margin: 0 0 0.25rem 0; font-size: 1.1rem;">P.A.L Mentor</h4>
-        <p style="margin: 0; color: #4b5563; font-size: 0.9rem;"><em>Australian National University</em> | Semester 1, 2020</p>
-        <p style="margin-top: 0.5rem; margin-bottom: 1.5rem; font-size: 0.95rem;">Mentored peers as a Peer-Assisted Learning (P.A.L) leader, facilitating collaborative study sessions and supporting student transition to university life.</p>
-        <h4 style="margin: 0 0 0.25rem 0; font-size: 1.1rem;">Actuarial Intern</h4>
-        <p style="margin: 0; color: #4b5563; font-size: 0.9rem;"><em>Softlogic Life Insurance PLC (Sri Lanka)</em> | Nov 2019 – Feb 2020</p>
-        <p style="margin-top: 0.5rem; font-size: 0.95rem;">Gained foundational international experience in life insurance modeling and risk assessment.</p>
+        <div id="more-experience-wrapper" class="more-experience" style="margin: 1rem 0 2.5rem 0;">
+        <details class="more-experience-card">
+        <summary class="more-experience-toggle">➕ View More Experience</summary>
+        <div class="more-experience-list">
+        <h4><strong>Research Support Officer</strong></h4>
+        <p class="more-experience-meta"><em>Orima Research</em> | Feb 2021 – Dec 2021</p>
+        <p class="more-experience-description">Conducted data analytics using Excel and SPSS. Assisted with coding open-ended comments and checking data accuracy in reports.</p>
+        <h4><strong>P.A.L Mentor</strong></h4>
+        <p class="more-experience-meta"><em>Australian National University</em> | Semester 1, 2020</p>
+        <p class="more-experience-description">Mentored peers as a Peer-Assisted Learning (P.A.L) leader, facilitating collaborative study sessions and supporting student transition to university life.</p>
+        <h4><strong>Actuarial Intern</strong></h4>
+        <p class="more-experience-meta"><em>Softlogic Life Insurance PLC (Sri Lanka)</em> | Nov 2019 – Feb 2020</p>
+        <p class="more-experience-description">Gained foundational international experience in life insurance modeling and risk assessment.</p>
         </div>
         </details>
         </div>

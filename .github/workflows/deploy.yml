@@ -6,9 +6,9 @@ env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
 
 on:
-  # Trigger the workflow every time you push to the `main` branch
+  # Publish the production branch and the separate pramo.info copy.
   push:
-    branches: ['main']
+    branches: ['main', 'pramo-info-deploy']
   # Allows you to run this workflow manually from the Actions tab on GitHub
   workflow_dispatch:
 

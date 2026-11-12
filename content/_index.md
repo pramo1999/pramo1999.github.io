@@ -9,51 +9,52 @@ design:
   spacing: '6rem'
 
 sections:
-  - block: resume-biography-3
+  - block: markdown
+    id: introduction
     content:
-      username: admin
       text: |-
-        # Hi—I’m Pramo!
-
-        I am an **Actuarial Analyst and Computer Scientist** based in Canberra. I recently graduated from the **Australian National University** with **First Class Honours in Computing**, alongside degrees in **Actuarial Studies and Science** (Computing major and Mathematics minor)**.
-
-        **My greatest assets are my drive and dedication. I look forward to sharing my professional journey here on this website!**
-
-        <details style="margin: 1.5rem 0; padding: 1.5rem; border: 1px solid rgba(128, 128, 128, 0.3); border-radius: 0.5rem;">
-        <summary style="cursor: pointer; font-weight: bold; font-size: 1.1rem; outline: none;">➕ Read more about my background</summary>
-        <div style="margin-top: 1.5rem;">
-        
-        <h3 style="margin-top: 0; font-size: 1.25rem;">Professional Vision</h3>
-        <p style="margin-bottom: 1rem;">My expertise lies at the intersection of machine learning and actuarial science. I am dedicated to applying advanced computing techniques to enhance data interpretation and risk assessment. My core philosophy is to move beyond "black box" modeling, ensuring that complex algorithms remain interpretable, transparent, and ethically sound for stakeholders.</p>
-
-        <h3 style="font-size: 1.25rem;">My Value Proposition: Grit and Dedication</h3>
-        <p style="margin-bottom: 1rem;">While many focus solely on technical aptitude, I believe my greatest asset is my <strong>unwavering drive and dedication</strong>. I pursued a multidisciplinary double degree to develop a niche skill set that bridges the gap between raw data science and rigorous actuarial standards.</p> 
-
-        <p style="margin-bottom: 1rem;">I have a proven track record of managing high-pressure, complex workloads. During my final two years of university, I successfully balanced a role at the <strong>Australian Government Actuary</strong> while overloading with multiple Part 2 and 3 courses for the Actuaries Institute. As a result, I completed <strong>all but one actuarial exam</strong> required for Fellowship prior to graduation.</p>
-
-        <h3 style="font-size: 1.25rem;">Proactive Leadership & Initiative</h3>
-        <p style="margin-bottom: 1rem;">I am a proactive leader who identifies gaps and creates solutions. Recognizing a need for better community representation, I <strong>initiated and co-founded the first Sri Lankan Society at ANU</strong>. This role required high-level organization, task management, and the ability to coordinate large-scale events and programs from the ground up.</p>
-
-        <h3 style="font-size: 1.25rem;">Research & Mentorship</h3>
-        <p style="margin-bottom: 1rem;">I am deeply committed to the idea of "lifting as you climb." As a tutor and mentor, I took the initiative to redesign course content and develop original assignments to improve the student experience (examples of which can be found in my <a href="/projects/" style="text-decoration: underline;">Projects section</a>).</p>
-
-        <p style="margin-bottom: 0;">My commitment to impactful work also drove my <strong>Honours research</strong>, which introduced novel health-based variables into mortality projections. This research aims to refine mortality predictions to ensure more accurate and sustainable retirement pricing for Australians.</p>
-        
-        </div>
-        </details>
-
-        <div style="display:flex;gap:0.5rem;align-items:center;padding-top:1rem">
-        <a href="experience/" style="display:inline-block;padding:0.5rem 1rem;background:#0ea5a4;color:#ffffff;border-radius:0.375rem;text-decoration:none">View Experience</a>
-        <a href="uploads/resume.pdf" target="_blank" style="display:inline-block;padding:0.5rem 1rem;background:#111827;color:#ffffff;border-radius:0.375rem;text-decoration:none">Download CV (pdf)</a>
-        <a href="uploads/Resume_Dec2025.docx" style="display:inline-block;padding:0.5rem 1rem;background:#6b7280;color:#ffffff;border-radius:0.375rem;text-decoration:none">Download CV (word)</a>
-        </div>
+        <section class="interactive-intro" aria-labelledby="intro-title">
+          <h1 id="intro-title">Hi, I’m Pramo.</h1>
+          <div class="intro-copy">
+            <p class="intro-lede">I am an <strong>Actuarial Analyst and Computer Scientist</strong> based in Canberra.</p>
+            <p class="intro-summary">I recently graduated from the <strong>Australian National University</strong> with <strong>First Class Honours in Computing</strong>, alongside degrees in <strong>Actuarial Studies and Science</strong> (Computing major and Mathematics minor).</p>
+            <p class="intro-summary intro-original-highlight"><strong>My greatest assets are my drive and dedication. I look forward to sharing my professional journey here on this website!</strong></p>
+            <details class="intro-more">
+              <summary>➕ Read more about my background</summary>
+              <div class="intro-more-copy">
+                <h3>Professional Vision</h3>
+                <p>My expertise lies at the intersection of machine learning and actuarial science. I am dedicated to applying advanced computing techniques to enhance data interpretation and risk assessment. My core philosophy is to move beyond "black box" modeling, ensuring that complex algorithms remain interpretable, transparent, and ethically sound for stakeholders.</p>
+                <h3>My Value Proposition: Grit and Dedication</h3>
+                <p>While many focus solely on technical aptitude, I believe my greatest asset is my <strong>unwavering drive and dedication</strong>. I pursued a multidisciplinary double degree to develop a niche skill set that bridges the gap between raw data science and rigorous actuarial standards.</p>
+                <p>I have a proven track record of managing high-pressure, complex workloads. During my final two years of university, I successfully balanced a role at the <strong>Australian Government Actuary</strong> while overloading with multiple Part 2 and 3 courses for the Actuaries Institute. As a result, I completed <strong>all but one actuarial exam</strong> required for Fellowship prior to graduation.</p>
+                <h3>Proactive Leadership &amp; Initiative</h3>
+                <p>I am a proactive leader who identifies gaps and creates solutions. Recognizing a need for better community representation, I <strong>initiated and co-founded the first Sri Lankan Society at ANU</strong>. This role required high-level organization, task management, and the ability to coordinate large-scale events and programs from the ground up.</p>
+                <h3>Research &amp; Mentorship</h3>
+                <p>I am deeply committed to the idea of "lifting as you climb." As a tutor and mentor, I took the initiative to redesign course content and develop original assignments to improve the student experience (examples of which can be found in my <a href="/projects/">Projects section</a>).</p>
+                <p>My commitment to impactful work also drove my <strong>Honours research</strong>, which introduced novel health-based variables into mortality projections. This research aims to refine mortality predictions to ensure more accurate and sustainable retirement pricing for Australians.</p>
+              </div>
+            </details>
+          </div>
+          <div class="intro-visual" role="img" aria-label="Stylized portrait of Pramo whose head and eyes follow the pointer" data-gaze-atlas="/images/pramo-gaze-frames.webp?v=20261112">
+            <img class="intro-portrait" src="/images/pramo-3d-character-v2-transparent.png" alt="" width="1278" height="1230" fetchpriority="high">
+            <canvas class="intro-gaze-canvas" aria-hidden="true"></canvas>
+          </div>
+          <div class="intro-actions">
+            <a class="intro-button intro-button-primary" href="/experience/">View Experience <span aria-hidden="true">↗</span></a>
+            <a class="intro-button intro-button-secondary" href="/uploads/resume.pdf" target="_blank" rel="noopener">Download CV (pdf) <span aria-hidden="true">↓</span></a>
+          </div>
+          <details class="intro-info">
+            <summary aria-label="About the portrait and animation">i</summary>
+            <div class="intro-info-panel">
+              <h2>About this portrait</h2>
+              <p><strong>Image</strong> The stylized portrait was generated with ChatGPT image generation using my uploaded photo as the identity reference and a second image for style and framing. Backgrounds are removed from the still and movement frames so the section’s beige gradient shows through.</p>
+              <p><strong>Motion</strong> A directional head-and-eye sequence was generated with Google Flow. On desktop, a 64-frame WebP atlas is displayed with native JavaScript Canvas 2D, Pointer Events and <code>requestAnimationFrame</code>; the pointer selects one pre-rendered frame. The website hero plays no video or audio. Touch devices and reduced-motion settings use the still portrait.</p>
+              <p><strong>Website</strong> The site is built with Hugo Blox and Tailwind CSS.</p>
+            </div>
+          </details>
+        </section>
     design:
-      background:
-        gradient_mesh:
-          enable: true
-      avatar:
-        size: medium 
-        shape: circle
+      columns: '1'
 
   - block: collection
     id: blog
@@ -123,6 +124,8 @@ sections:
         <style>#my-research .prose { max-width: 90ch !important; }</style>
 
         My Honours research, “Rethinking Mortality Using a State-Based Dynamic Probabilistic Model,” tackles one of the most complex financial and social challenges in Australia: predicting how long a population will live when health and lifestyle are constantly shifting. 
+
+        I continue this work as a **Research Assistant at UNSW**, extending mortality-improvement research with medical information and dynamic health-state models. I co-authored the Actuaries Institute article [“Incorporating Socio-economic Factors in Mortality Modelling”](https://content.actuaries.asn.au/resources/resource-ce6yyqn64sx3-786882053-16716) and helped launch the [Australian Longevity Explorer](https://auslongevity.shinyapps.io/explorer/), including leading development of its medical explorer component.
         
         #### The Innovation: Breaking the "Static" Mold
 

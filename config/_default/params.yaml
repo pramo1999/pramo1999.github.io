@@ -20,7 +20,7 @@ hugoblox:
   # THEME — BEIGE PALETTE
   # ────────────────────────────────────────────────────────────────────────────
   theme:
-    mode: system
+    mode: light
     color: coffee
 
   typography:
